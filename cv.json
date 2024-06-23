@@ -1,0 +1,70 @@
+{
+  "basics": {
+    "name": "Mallorga Yuliana",
+    "label": "Frontend Web Developer",
+    "image": "https://avatars.githubusercontent.com/u/113486381?s=400&u=72423d59544d88d1404f478b9fb1c03086508878&v=4",
+    "email": "yulianamallorga@gmail.com",
+    "phone": "+54 381-6393820",
+    "url": "https://yuliana-mallorga.com",
+    "summary": "Frontend developer with experience in responsive web design. Proven ability to work in collaborative environments and project management. Committed to constantly updating the latest technologies.",
+    "location": {
+      "address": "Santa fe 452",
+      "postalCode": "T4000",
+      "city": "San Miguel de Tucumán",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Yuliana Mallorga",
+        "url": "https://www.linkedin.com/in/yuliana-mallorga/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "RollingCode",
+      "url": "https://web.rollingcodeschool.com/",
+      "area": "Software Development",
+      "courses": ["Full stack developer"]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": ["HTML", "CSS", "JavaScript, React, git, gitHub"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "highlights": ["Won award at AIHacks 2016"],
+      "url": "https://project.com/"
+    }
+  ]
+}
