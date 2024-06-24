@@ -27,6 +27,17 @@
       }
     ]
   },
+  "work": [{
+    "name": "Company",
+    "position": "President",
+    "url": "https://company.com",
+    "startDate": "2013-01-01",
+    "endDate": "2014-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Started the company"
+    ]
+  }],
   "education": [
     {
       "institution": "RollingCode",
@@ -47,7 +58,7 @@
     {
       "name": "Web Development",
       "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript, React, git, gitHub"]
+      "keywords": ["HTML", "CSS", "JavaScript", "React.js", "Linux", "JSON", "Npm", "Desarrollo de API", "Vite", "Git", "GitHub", "Eslint", "SweetAlert", "Axios", "Bootstrap", "Tailwind CSS", "Problem resolution", "Oral communication"]
     }
   ],
   "languages": [
@@ -64,12 +75,34 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "name": "Blog anime",
+      "description": "This project is a website with an anime blog theme. On our page, you will find different sections such as the image gallery, about us, login, contact, in addition to the home page. Our website is carefully designed with an attractive and easy to navigate interface, created with HTML and CSS.",
+      "url": "https://github.com/yuliana-mallorga/Blog-anime.git",
+      "demoUrl": "https://blog-anime-equipo5-rolling.netlify.app/"
+    },
+    {
+      "name": "Filmax",
+      "description":"The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
+      "url": "https://github.com/mcolombotto/23iModulo2Grupo2",
+      "demoUrl": "https://proyecto-modulo2-grupo2.netlify.app/"
+    },
+    {
+      "name": "Tic-Tac-Toe Game",
+      "description":"The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game. The game provides an interactive and engaging experience, promoting online fun and competition.",
+      "url": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "demoUrl": null
+    },
+    {
+      "name": "Twitter Follow Card",
+      "description":"The Twitter Follow Card Component project focuses on developing a custom component for web applications using React. This component will allow developers to easily integrate Twitter follow cards into their sites with customization options. Vite is used as the development environment, and ESLint rules are applied to maintain code quality. The goal is to simplify the integration of Twitter follow cards, promoting social media engagement.",
+      "url": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "demoUrl": null
+    },
+    {
+      "name": "WorldSurveys - Final Project",
+      "description":"TIt is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
+      "url": "https://github.com/mcolombotto/frontSurvey23i",
+      "demoUrl": "https://world-surveys.netlify.app/"
     }
   ]
 }
