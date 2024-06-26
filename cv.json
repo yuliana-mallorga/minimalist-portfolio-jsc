@@ -28,15 +28,13 @@
     ]
   },
   "work": [{
-    "name": "Company",
-    "position": "President",
-    "url": "https://company.com",
-    "startDate": "2013-01-01",
-    "endDate": "2014-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Started the company"
-    ]
+    "name": "Yuliana Mallorga",
+    "position": "",
+    "url": "",
+    "startDate": "2022-01-01",
+    "endDate": "Currently",
+    "summary": "web development",
+    "highlights": []
   }],
   "education": [
     {
@@ -55,11 +53,96 @@
     }
   ],
   "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript", "React.js", "Linux", "JSON", "Npm", "Desarrollo de API", "Vite", "Git", "GitHub", "Eslint", "SweetAlert", "Axios", "Bootstrap", "Tailwind CSS", "Problem resolution", "Oral communication"]
-    }
+      {
+        "name": "HTML",
+        "level": "Advanced",
+        "keywords": ["Frontend", "Web development", "Markup", "Web structure"]
+      },
+      {
+        "name": "CSS",
+        "level": "Advanced",
+        "keywords": ["Frontend", "Web development", "Web design", "Web styles"]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advanced",
+        "keywords": ["Frontend", "Web development", "Programming language", "Web interactivity"]
+      },
+      {
+        "name": "React.js",
+        "level": "Advanced",
+        "keywords": ["Frontend", "Web development", "JavaScript library", "User interfaces"]
+      },
+      {
+        "name": "Linux",
+        "level": "Advanced",
+        "keywords": ["Operating system", "Servers", "Security", "Command line"]
+      },
+      {
+        "name": "JSON",
+        "level": "Advanced",
+        "keywords": ["Data interchange", "Text formats", "APIs", "Web applications"]
+      },
+      {
+        "name": "Npm",
+        "level": "Advanced",
+        "keywords": ["Package manager", "Web development", "Dependencies", "JavaScript"]
+      },
+      {
+        "name": "API Development",
+        "level": "Upper Intermediate",
+        "keywords": ["Backend", "Integrations", "Web services", "Web architectures"]
+      },
+      {
+        "name": "Vite",
+        "level": "Upper Intermediate",
+        "keywords": ["Development tool", "Frontend", "JavaScript", "Bundler"]
+      },
+      {
+        "name": "Git",
+        "level": "Upper Intermediate",
+        "keywords": ["Version control", "Collaboration", "Software development"]
+      },
+      {
+        "name": "GitHub",
+        "level": "Upper Intermediate",
+        "keywords": ["Code hosting platform", "Version control", "Collaboration", "Software development"]
+      },
+      {
+        "name": "Eslint",
+        "level": "Intermediate",
+        "keywords": ["Code linting", "Code quality", "JavaScript", "Best practices"]
+      },
+      {
+        "name": "SweetAlert",
+        "level": "Intermediate",
+        "keywords": ["JavaScript library", "Alerts", "Notifications", "User interfaces"]
+      },
+      {
+        "name": "Axios",
+        "level": "Intermediate",
+        "keywords": ["JavaScript library", "HTTP requests", "APIs", "Data consumption"]
+      },
+      {
+        "name": "Bootstrap",
+        "level": "Advanced",
+        "keywords": ["CSS framework", "Frontend", "Web design", "UI components"]
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "Intermediate",
+        "keywords": ["CSS framework", "Frontend", "Web design", "Custom styles"]
+      },
+      {
+        "name": "Problem resolution",
+        "level": "Upper Intermediate",
+        "keywords": ["Problem-solving skills", "Critical thinking", "Analysis", "Decision making"]
+      },
+      {
+        "name": "Oral communication",
+        "level": "Advanced",
+        "keywords": ["Verbal communication", "Presenting ideas", "Teamwork", "Collaboration"]
+      }
   ],
   "languages": [
     {
