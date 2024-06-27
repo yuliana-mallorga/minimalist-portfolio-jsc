@@ -1,6 +1,97 @@
 ---
 import Section from "@/components/sections/Section.astro"
+import { projects } from "@cv"
 ---
 <Section title="Projects">
-
+    <ul>
+        {
+            projects.map(({ name, description, url, demoUrl, highlights, isActive }) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <a href={url} title={`Watch the ${name} project`}>
+                                    <h3>{name}</h3>
+                                    {
+                                    isActive && <span>&bull;</span>
+                                    }
+                                </a>
+                                {
+                                 demoUrl !== null || undefined ? 
+                                <a href={demoUrl} title={`Watch the ${name} project demo`} >Project demo</a> : 
+                                null 
+                                }
+                                <p>{description}</p>
+                            </header>
+                            <footer>
+                                <ul>
+                                    {
+                                        highlights.map((highlight) => {
+                                            return (
+                                                <li>{highlight}</li>
+                                            )
+                                        })
+                                    }
+                                </ul>
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })
+        }
+    </ul>
 </Section>
+
+<style>
+    ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    article {
+        border-radius: 8px;
+        border: 1px solid #f2f2f2;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        height: 100%;
+    }
+
+    article header{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    span {
+        color: #1cc338;
+        font-size: x-large;
+    }
+    article header p {
+        font-size: 0.8rem;
+    }
+    article a {
+        color: #111;
+        display: inline-flex;
+    }
+
+    article a:hover {
+       text-decoration: underline;
+    }
+    footer ul {
+        display: inline-flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    footer li {
+        border-radius: 6px;
+        background: #eee;
+        color: #333;
+        padding: 0.2rem 0.5rem;
+    }
+</style>
