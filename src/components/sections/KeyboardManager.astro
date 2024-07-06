@@ -145,6 +145,15 @@ const profilesInfo = profiles.map(({ network, url }) => {
     }
   }
 
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   footer {
     background: #fdfdfd;
     border-top: 1px solid #eee;
@@ -154,6 +163,13 @@ const profilesInfo = profiles.map(({ network, url }) => {
     padding-block: 16px;
     text-align: center;
     font-size: 0.85rem;
+
+    view-timeline-name: --revealing;
+    view-timeline-axis: block;
+
+    animation: linear 0.3s fadeIn;
+    animation-timeline: --revealing;
+    animation-range: entry 100% cover 20%;
   }
 
   kbd {
