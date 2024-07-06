@@ -1,12 +1,8 @@
 ---
 import { basics } from "@cv";
-import X from "@/icons/X.astro";
-import LinkedIn from "@/icons/LinkedIn.astro";
-import GitHub from "@/icons/GitHub.astro";
 
 const { profiles } = basics;
 
-//type Icons = "GitHub" | "LinkedIn" | "X";
 
 const SOCIAL_ICONS: Record<string, string> = {
   GitHub: `<svg
@@ -66,8 +62,9 @@ const profilesInfo = profiles.map(({ network, url }) => {
   const firtletter = network[0].toUpperCase();
 
   return {
+    id: network,
     Section: "Social",
-    title: network,
+    title: `Visitar ${network}`,
     url,
     icon,
     hotkey: `ctrl+${firtletter}`,
