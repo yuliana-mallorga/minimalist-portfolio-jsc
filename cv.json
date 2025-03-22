@@ -6,7 +6,11 @@
     "email": "yulianamallorga@gmail.com",
     "phone": "+54 381-6393820",
     "url": "https://yuliana-mallorga.com",
-    "summary": ["Full Stack Web Developer with 3 years of experience in building modern, scalable, and efficient web applications. Specialized in HTML, CSS, and JavaScript, with expertise in frameworks like React, Vite, Bootstrap, Tailwind, and Astro, as well as backend technologies such as Node.js and Express.js. Additionally, experienced in databases like PostgreSQL.", "Passionate about developing high-quality software, applying best practices such as TDD and Clean Code. Skilled in responsive web design, ensuring adaptable and optimized interfaces across different devices. Strong team player with experience in project management, having served as a Scrum Master in two projects.", "Committed to continuous learning and the adoption of cutting-edge technologies to develop innovative, scalable, and high-performance solutions. "],
+    "summary": [
+      "Full Stack Web Developer with 3 years of experience in building modern, scalable, and efficient web applications. Specialized in HTML, CSS, and JavaScript, with expertise in frameworks like React, Vite, Bootstrap, Tailwind, and Astro, as well as backend technologies such as Node.js and Express.js. Additionally, experienced in databases like PostgreSQL.",
+      "Passionate about developing high-quality software, applying best practices such as TDD and Clean Code. Skilled in responsive web design, ensuring adaptable and optimized interfaces across different devices. Strong team player with experience in project management, having served as a Scrum Master in two projects.",
+      "Committed to continuous learning and the adoption of cutting-edge technologies to develop innovative, scalable, and high-performance solutions. "
+    ],
     "location": {
       "address": "Santa fe 452",
       "postalCode": "T4000",
@@ -27,27 +31,68 @@
       }
     ]
   },
-  "work": [{
-    "name": "Personal Project",
-    "position": "Full Stack Developer",
-    "FeaturedProject": "Facial Recognition Project",
-    "urlFrontend": "https://facial-recognition-project-t6h5.onrender.com/",
-    "urlFrontendGit": "https://github.com/yuliana-mallorga/Facial-recognition-project",
-    "urlBackend": "https://facial-recognition-api-back-end.onrender.com/",
-    "urlBackendGit": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
-    "startDate": "2024-03-27",
-    "endDate": null,
-    "summary": ["Developed a web application using React, Vite, and Tachyons, improving the UI/UX experience.", "Integrated a REST API (Clarifai) using Axios for efficient data consumption.", "Implemented the backend with Node.js and Express.js, managing the database with PostgreSQL.", "Deployed the application to the cloud for public access."],
-    "highlights": ["Full Stack Developer with experience in HTML, CSS, JavaScript, React, Vite, Astro Bootstrap, Tailwind, Node.js, Express.js and PostgreSQL.", "Implementation of RESTful APIs and optimization of SQL and NoSQL databases.", "Application of TDD and Clean Code to improve software quality.", "Experience with cloud deployment using Netlify and Render.", "Work in agile teams with Scrum and GitHub Projects." ]
-  }],
+  "work": [
+    {
+      "name": "Personal Project",
+      "position": "Full Stack Developer",
+      "FeaturedProject": "Facial Recognition Project",
+      "urlFrontend": "https://facial-recognition-project-t6h5.onrender.com/",
+      "urlFrontendGit": "https://github.com/yuliana-mallorga/Facial-recognition-project",
+      "urlBackend": "https://facial-recognition-api-back-end.onrender.com/",
+      "urlBackendGit": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
+      "startDate": "2024-03-27",
+      "endDate": null,
+      "summary": [
+        "Developed a web application using React, Vite, and Tachyons, improving the UI/UX experience.",
+        "Integrated a REST API (Clarifai) using Axios for efficient data consumption.",
+        "Implemented the backend with Node.js and Express.js, managing the database with PostgreSQL.",
+        "Deployed the application to the cloud for public access."
+      ],
+      "highlights": [
+        "Full Stack Developer with experience in HTML, CSS, JavaScript, React, Vite, Astro Bootstrap, Tailwind, Node.js, Express.js and PostgreSQL.",
+        "Implementation of RESTful APIs and optimization of SQL and NoSQL databases.",
+        "Application of TDD and Clean Code to improve software quality.",
+        "Experience with cloud deployment using Netlify and Render.",
+        "Work in agile teams with Scrum and GitHub Projects."
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "RollingCode school",
       "url": "https://web.rollingcodeschool.com/",
       "field": "Software Development",
       "title": "Full stack developer",
-      "summary": ["At RollingCode, I learned to develop basic technologies and set up my work environment using Linux, VS Code, and the npm package manager. I developed collaborative skills in Teamwork and gained experience as a Scrum Master in the last two team projects.", "Additionally, I acquired knowledge in Git and GitHub for version control and worked with JavaScript, Node.js, and React.js for web development. I implemented HTML, CSS, and Bootstrap for interface layout, as well as used SweetAlert2 to enhance the user experience.", "I learned to handle JSON for data transfer and consume APIs with Axios. I also worked with Token (JWT) for user authentication in web applications. Thanks to this, I strengthened my skills in Problem-Solving and Communication within an agile and collaborative environment."],
-      "skills": ["Linux","Npm (Software)", "VS Code", "HTML", "CSS",  "Teamwork", "GitHub", "Git",  "Problem-Solving", "Communication", "SweetAlert2", "Bootstrap", "Axios", "dotenv", "JSON", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "API REST", "Postman"],
+      "summary": [
+        "At RollingCode, I learned to develop basic technologies and set up my work environment using Linux, VS Code, and the npm package manager. I developed collaborative skills in Teamwork and gained experience as a Scrum Master in the last two team projects.",
+        "Additionally, I acquired knowledge in Git and GitHub for version control and worked with JavaScript, Node.js, and React.js for web development. I implemented HTML, CSS, and Bootstrap for interface layout, as well as used SweetAlert2 to enhance the user experience.",
+        "I learned to handle JSON for data transfer and consume APIs with Axios. I also worked with Token (JWT) for user authentication in web applications. Thanks to this, I strengthened my skills in Problem-Solving and Communication within an agile and collaborative environment."
+      ],
+      "skills": [
+        "Linux",
+        "Npm (Software)",
+        "VS Code",
+        "HTML",
+        "CSS",
+        "Teamwork",
+        "Trello",
+        "GitHub",
+        "Git",
+        "Problem-Solving",
+        "Communication",
+        "SweetAlert2",
+        "Bootstrap",
+        "Axios",
+        "dotenv",
+        "JSON",
+        "Token (JWT)",
+        "React.js",
+        "Node.js",
+        "JavaScript",
+        "JSON",
+        "API REST",
+        "Postman"
+      ],
       "year": "2022"
     },
     {
@@ -55,8 +100,32 @@
       "url": "https://zerotomastery.io/",
       "field": "Software Development",
       "title": "Web developer",
-      "summary":["At Zero to Mastery, I took my basic skills to the next level with the Web Developer course, where I worked with technologies such as HTML, CSS, JavaScript, and React.js for building dynamic interfaces, as well as managing styles with Tachyons. I also improved my skills in Git and GitHub for version control.", "On the backend, I gained experience with Node.js and Express.js, interacting with SQL databases like PostgreSQL. I also used Postman to test and debug REST APIs, handling data formats in JSON.", "Thanks to this course, I strengthened my Problem-Solving skills by optimizing application performance and improving functionality with tools like Axios for managing HTTP requests."],
-      "skills": ["HTML", "CSS", "JavaScript", "GitHub", "Git", "JSON", "React.js", "Npm (Software)", "Tachyons", "Problem-Solving", "Axios", "dotenv", "Node.js",  "JSON", "express.js", "SQL", "Postman", "API REST", "PostgreSQL" ],
+      "summary": [
+        "At Zero to Mastery, I took my basic skills to the next level with the Web Developer course, where I worked with technologies such as HTML, CSS, JavaScript, and React.js for building dynamic interfaces, as well as managing styles with Tachyons. I also improved my skills in Git and GitHub for version control.",
+        "On the backend, I gained experience with Node.js and Express.js, interacting with SQL databases like PostgreSQL. I also used Postman to test and debug REST APIs, handling data formats in JSON.",
+        "Thanks to this course, I strengthened my Problem-Solving skills by optimizing application performance and improving functionality with tools like Axios for managing HTTP requests."
+      ],
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "GitHub",
+        "Git",
+        "JSON",
+        "React.js",
+        "Npm (Software)",
+        "Tachyons",
+        "Problem-Solving",
+        "Axios",
+        "dotenv",
+        "Node.js",
+        "JSON",
+        "express.js",
+        "SQL",
+        "Postman",
+        "API REST",
+        "PostgreSQL"
+      ],
       "year": "2024"
     }
   ],
@@ -69,96 +138,237 @@
     }
   ],
   "skills": [
-      {
-        "name": "HTML",
-        "level": "Advanced",
-        "keywords": ["Frontend", "Web development", "Markup", "Web structure"]
-      },
-      {
-        "name": "CSS",
-        "level": "Advanced",
-        "keywords": ["Frontend", "Web development", "Web design", "Web styles"]
-      },
-      {
-        "name": "JavaScript",
-        "level": "Advanced",
-        "keywords": ["Frontend", "Web development", "Programming language", "Web interactivity"]
-      },
-      {
-        "name": "React.js",
-        "level": "Advanced",
-        "keywords": ["Frontend", "Web development", "JavaScript library", "User interfaces"]
-      },
-      {
-        "name": "Linux",
-        "level": "Advanced",
-        "keywords": ["Operating system", "Servers", "Security", "Command line"]
-      },
-      {
-        "name": "JSON",
-        "level": "Advanced",
-        "keywords": ["Data interchange", "Text formats", "APIs", "Web applications"]
-      },
-      {
-        "name": "Npm",
-        "level": "Advanced",
-        "keywords": ["Package manager", "Web development", "Dependencies", "JavaScript"]
-      },
-      {
-        "name": "API Development",
-        "level": "Upper Intermediate",
-        "keywords": ["Backend", "Integrations", "Web services", "Web architectures"]
-      },
-      {
-        "name": "Vite",
-        "level": "Upper Intermediate",
-        "keywords": ["Development tool", "Frontend", "JavaScript", "Bundler"]
-      },
-      {
-        "name": "Git",
-        "level": "Upper Intermediate",
-        "keywords": ["Version control", "Collaboration", "Software development"]
-      },
-      {
-        "name": "GitHub",
-        "level": "Upper Intermediate",
-        "keywords": ["Code hosting platform", "Version control", "Collaboration", "Software development"]
-      },
-      {
-        "name": "Eslint",
-        "level": "Intermediate",
-        "keywords": ["Code linting", "Code quality", "JavaScript", "Best practices"]
-      },
-      {
-        "name": "SweetAlert",
-        "level": "Intermediate",
-        "keywords": ["JavaScript library", "Alerts", "Notifications", "User interfaces"]
-      },
-      {
-        "name": "Axios",
-        "level": "Intermediate",
-        "keywords": ["JavaScript library", "HTTP requests", "APIs", "Data consumption"]
-      },
-      {
-        "name": "Bootstrap",
-        "level": "Advanced",
-        "keywords": ["CSS framework", "Frontend", "Web design", "UI components"]
-      },
-      {
-        "name": "Tailwind CSS",
-        "level": "Intermediate",
-        "keywords": ["CSS framework", "Frontend", "Web design", "Custom styles"]
-      },
-      {
-        "name": "Problem resolution",
-        "level": "Upper Intermediate",
-        "keywords": ["Problem-solving skills", "Critical thinking", "Analysis", "Decision making"]
-      },
-      {
-        "name": "Oral communication",
-        "level": "Advanced",
-        "keywords": ["Verbal communication", "Presenting ideas", "Teamwork", "Collaboration"]
-      }
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": ["Frontend", "Web development", "Markup", "Web structure"]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": ["Frontend", "Web development", "Web design", "Web styles"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Web development",
+        "Programming language",
+        "Web interactivity"
+      ]
+    },
+    {
+      "name": "React.js",
+      "level": "Advanced",
+      "keywords": [
+        "Frontend",
+        "Web development",
+        "JavaScript library",
+        "User interfaces"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Advanced",
+      "keywords": ["Operating system", "Servers", "Security", "Command line"]
+    },
+    {
+      "name": "JSON",
+      "level": "Advanced",
+      "keywords": [
+        "Data interchange",
+        "Text formats",
+        "APIs",
+        "Web applications"
+      ]
+    },
+    {
+      "name": "npm",
+      "level": "Advanced",
+      "keywords": [
+        "Package manager",
+        "Web development",
+        "Dependencies",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "API Development",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Backend",
+        "Integrations",
+        "Web services",
+        "Web architectures"
+      ]
+    },
+    {
+      "name": "Vite",
+      "level": "Upper Intermediate",
+      "keywords": ["Development tool", "Frontend", "JavaScript", "Bundler"]
+    },
+    {
+      "name": "Git",
+      "level": "Upper Intermediate",
+      "keywords": ["Version control", "Collaboration", "Software development"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Code hosting platform",
+        "Version control",
+        "Collaboration",
+        "Software development"
+      ]
+    },
+    {
+      "name": "Eslint",
+      "level": "Intermediate",
+      "keywords": [
+        "Code linting",
+        "Code quality",
+        "JavaScript",
+        "Best practices"
+      ]
+    },
+    {
+      "name": "SweetAlert",
+      "level": "Intermediate",
+      "keywords": [
+        "JavaScript library",
+        "Alerts",
+        "Notifications",
+        "User interfaces"
+      ]
+    },
+    {
+      "name": "Axios",
+      "level": "Intermediate",
+      "keywords": [
+        "JavaScript library",
+        "HTTP requests",
+        "APIs",
+        "Data consumption"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "level": "Advanced",
+      "keywords": ["CSS framework", "Frontend", "Web design", "UI components"]
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": "Intermediate",
+      "keywords": ["CSS framework", "Frontend", "Web design", "Custom styles"]
+    },
+    {
+      "name": "Problem resolution",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Problem-solving skills",
+        "Critical thinking",
+        "Analysis",
+        "Decision making"
+      ]
+    },
+    {
+      "name": "Oral communication",
+      "level": "Advanced",
+      "keywords": [
+        "Verbal communication",
+        "Presenting ideas",
+        "Teamwork",
+        "Collaboration"
+      ]
+    },
+    {
+      "name": "dotenv",
+      "level": "Intermediate",
+      "keywords": [
+        "Environment Variables",
+        "Configuration Management",
+        "Security",
+        "Process.env",
+        "Environment Files (.env)",
+        "dotenv Package",
+        "Node.js",
+        "Secrets Management",
+        "API Keys",
+        "Environment Separation",
+        "Sensitive Data Handling"
+      ]
+    },
+    {
+      "name": "Trello",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Project Management",
+        "Collaboration",
+        "Task Management",
+        "Boards",
+        "Lists",
+        "Cards",
+        "Labels",
+        "Automation (Butler)",
+        "Workflow",
+        "Team Coordination",
+        "Integration",
+        "Slack Integration",
+        "Power-Ups",
+        "Deadlines",
+        "Productivity Tools",
+        "Time Tracking",
+        "Collaboration Tools",
+        "Prioritization",
+        "Agile Methodology",
+        "Task Dependencies",
+        "Custom Fields"
+      ]
+    },
+    {
+      "name": "Postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API Testing",
+        "API Development",
+        "HTTP Requests",
+        "RESTful APIs",
+        "Postman Collections",
+        "Request Methods (GET, POST, PUT, DELETE)",
+        "Authentication",
+        "Environment Variables",
+        "JSON Responses",
+        "Status Codes",
+        "API Documentation"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Relational Database",
+        "SQL",
+        "Database Management",
+        "PostgreSQL Queries",
+        "Data Integrity",
+        "Normalization",
+        "Indexes",
+        "Joins",
+        "Subqueries",
+        "Foreign Keys",
+        "Schema Design",
+        "Data Types",
+        "Views",
+        "Transactions",
+        "Concurrency Control",
+        "pgAdmin",
+        "Data Migration",
+        "Performance Optimization",
+        "Security"
+      ]
+    }
   ],
   "languages": [
     {
@@ -187,15 +397,20 @@
     },
     {
       "name": "Filmax",
-      "description":"The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
+      "description": "The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
       "url": "https://github.com/mcolombotto/23iModulo2Grupo2",
       "demoUrl": "https://proyecto-modulo2-grupo2.netlify.app/",
-      "highlights": ["CRUD operations", "User Authentication", "Web application", "Movie & Series Management"],
+      "highlights": [
+        "CRUD operations",
+        "User Authentication",
+        "Web application",
+        "Movie & Series Management"
+      ],
       "isActive": false
     },
     {
       "name": "Tic-Tac-Toe Game",
-      "description":"The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
+      "description": "The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
       "url": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
       "demoUrl": null,
       "highlights": ["React", "React DOM", "Vite", "Multiplayer Game"],
@@ -203,18 +418,28 @@
     },
     {
       "name": "Twitter Follow Card",
-      "description":"The Twitter Follow Card Component project focuses on developing a custom component for web applications using React. This component will allow developers to easily integrate Twitter follow cards into their sites with customization options. Vite is used as the development environment, and ESLint rules are applied to maintain code quality.",
+      "description": "The Twitter Follow Card Component project focuses on developing a custom component for web applications using React. This component will allow developers to easily integrate Twitter follow cards into their sites with customization options. Vite is used as the development environment, and ESLint rules are applied to maintain code quality.",
       "url": "https://github.com/yuliana-mallorga/TwitterFollowCard",
       "demoUrl": null,
-      "highlights": ["React", "Custom Component", "Vite", "Social Media Integration"],
+      "highlights": [
+        "React",
+        "Custom Component",
+        "Vite",
+        "Social Media Integration"
+      ],
       "isActive": false
     },
     {
       "name": "WorldSurveys - Final Project",
-      "description":"It is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
+      "description": "It is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
       "url": "https://github.com/mcolombotto/frontSurvey23i",
       "demoUrl": "https://world-surveys.netlify.app/",
-      "highlights": ["ReactJS", "React Router", "Survey Management", "API Integration"],
+      "highlights": [
+        "ReactJS",
+        "React Router",
+        "Survey Management",
+        "API Integration"
+      ],
       "isActive": true
     }
   ]
