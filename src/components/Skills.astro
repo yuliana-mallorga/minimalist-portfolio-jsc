@@ -6,9 +6,16 @@ import { skills } from "@cv";
 <Section title="Skills">
   <ul>
     {
-      skills.map(({ name }) => (
+      skills.map(({ name, level, keywords}) => (
         <li>
-          <span>{name}</span>
+          <h4>{name} <span class="ml">- Level: {level}</span></h4>
+          <ul>
+            { keywords.map((keyword, index)=>{
+              const last = index === keywords.length - 1;
+              return <li>{keyword}  {!last && '-'}</li>;
+            })}
+          </ul>
+          
         </li>
       ))
     }
@@ -18,16 +25,18 @@ import { skills } from "@cv";
 <style>
   ul {
     display: inline-flex;
-    gap: 8px;
     flex-wrap: wrap;
   }
 
   li{
-    border-radius: 6px;
-    background: rgb(238, 236, 236);
+    border-radius: 4px;
     color: black;
     font-size: .8rem;
     font-weight: 500;
-    padding: 0.2rem 0.6rem;
+    padding: 0.2rem 0.1rem;
+  }
+
+  .ml{
+    margin-left: 2px;
   }
 </style>
