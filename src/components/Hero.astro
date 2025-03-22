@@ -1,12 +1,11 @@
 ---
 import Section from "@/components/sections/Section.astro";
 import { basics } from "@cv";
-import Mail from "@/icons/Mail.astro"
-import Phone from "@/icons/Phone.astro"
-import X from "@/icons/X.astro"
-import LinkedIn from "@/icons/LinkedIn.astro"
-import GitHub from "@/icons/GitHub.astro"
-import WorldMap from "@/icons/WorldMap.astro"
+import Mail from "@/icons/Mail.astro";
+import X from "@/icons/X.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import GitHub from "@/icons/GitHub.astro";
+import WorldMap from "@/icons/WorldMap.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
@@ -17,12 +16,11 @@ const SOCIAL_ICONS: Record<Icons, any> = {
   GitHub,
   LinkedIn,
   X
-}
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
+};
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
-
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
@@ -38,42 +36,34 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
         {printInfo}
       </div>
       <footer class="no-print">
-        {email && (
-        <a 
-            href={`mailto:${email}`}
-            title={`Send an email to ${name} at ${email}`}
-            target="_blank"
-            rel="noopener  noreferrer"
-        >
-            <Mail />
-        </a>)
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Send an email to ${name} at ${email}`}
+              target="_blank"
+              rel="noopener  noreferrer"
+            >
+              <Mail />
+            </a>
+          )
         }
-        {phone && (
-          <a 
-              href={`tel:${phone}`}
-              title={`call ${name} by phone at the number ${phone}`}
-              target="_blank"
-              rel="noopener  noreferrer"
-          >
-              <Phone />
-          </a>)
-          }
-          {
-            profiles.map(({ network, url, username }) => {
-              const Icon = SOCIAL_ICONS[network as Icons]
+        {
+          profiles.map(({ network, url, username }) => {
+            const Icon = SOCIAL_ICONS[network as Icons];
 
-              return(
-              <a 
-              href={url}
-              title={`Visit ${username}'s profile on ${network}`}
-              target="_blank"
-              rel="noopener  noreferrer"
-          >
-              <Icon />
-          </a>
-              )
-            })
-          }
+            return (
+              <a
+                href={url}
+                title={`Visit ${username}'s profile on ${network}`}
+                target="_blank"
+                rel="noopener  noreferrer"
+              >
+                <Icon />
+              </a>
+            );
+          })
+        }
       </footer>
     </div>
     <figure>
@@ -94,9 +84,9 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   .info {
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 0.5rem;
   }
-  
+
   h1 {
     font-size: 2rem;
   }
@@ -140,13 +130,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
     height: 32px;
     width: 32px;
     border-radius: 6px;
-    transition: all .3s ease;
+    transition: all 0.3s ease;
     border: 1px solid #ddd;
   }
 
   footer a:hover {
     background: #eee;
-}
+  }
 
   .print {
     display: none;
@@ -158,7 +148,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       line-height: 1.3rem;
       color: #555;
     }
-   
+
     .no-print {
       display: none;
     }

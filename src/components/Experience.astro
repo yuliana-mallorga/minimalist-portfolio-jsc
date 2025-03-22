@@ -26,14 +26,6 @@ import ApprovedIcon  from "@/icons/Approved.astro"
                 </div>
                 <time>{years}</time>
               </header>
-              <body>
-                <h3 class="margin">Highlights:</h3>
-                <ul class="margin">
-                  {highlights.map((highlights)=>{
-                      return <li><span><ApprovedIcon/></span>{ highlights }</li>
-                  })}
-                </ul>
-              </body>
               <footer>
                 <h3 class="margin">Featured Project: {FeaturedProject}</h3>
                 <h5>Frontend Deployment:<a href={urlFrontend}>{urlFrontend}</a></h5>
