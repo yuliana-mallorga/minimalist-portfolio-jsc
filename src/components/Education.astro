@@ -1,79 +1,95 @@
 ---
-import Section from "@/components/sections/Section.astro"
-import { education } from "@cv"
-import Computer from "@/icons/Computer.astro"
+import Section from "@/components/sections/Section.astro";
+import { education } from "@cv";
+import Computer from "@/icons/Computer.astro";
 ---
+
 <Section title="Education">
-    <ul>
-        {
-          education.map(({ institution, url, title, skills, year}) => {
-            return (
-              <li class="section">
-                <article>
-                  <header>
-                    <div class="main">
-                        <Computer width="26px" height="16px" />
-                        <h3>{title}</h3> 
-                        <span> - </span>
-                        <h3>[{institution}]</h3> 
-                        <time>[{year}]</time>
-                        <a href={url}>Link</a>
-                      
-                    </div>
-                   
-                  </header>
-                  <footer>
-                    
-                    <h5>Skills:</h5>
-                    <ul class="skills">
-                      {skills.map((skill)=>{
-                          return <li>{ skill }</li>
-                      })}
-                    </ul>
-                  </footer>
+  <ul>
+    {
+      education.map(({ institution, url, summary, title, skills, year }) => {
+        return (
+          <li class="section">
+            <article>
+              <header>
+                <div class="main">
+                  <div class="header">
+                    <Computer width="26px" height="16px" />
+                    <h3 class="ml">{title}</h3>
+                    <h3 class="ml">[{institution}]</h3>
+                  </div>
+                  <time>[{year}]</time>
+                </div>
+              </header>
+              <body>
+                <article class="summary">
+                  { summary && summary.map((paragraph) => {
+                    return <p>{paragraph}</p>;
+                  })}
                 </article>
-              </li>
-            );
-          })
-        }
-      </ul>
+              </body>
+              <footer>
+                <h5>Skills:</h5>
+                <ul class="skills">
+                  {skills.map((skill) => {
+                    return <li>{skill}</li>;
+                  })}
+                </ul>
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
 
 <style>
-
-.section{
+  .section {
     margin-bottom: 1rem;
-}
+  }
 
-a{
+  header {
+    margin-bottom: 1rem;
+  }
+
+  .header{
+    display: flex;
+  }
+
+  .ml{
+ margin-left: .5rem;
+  }
+
+  a {
     padding: 2px;
-    
-}
+  }
 
-a:hover{
+  a:hover {
     background-color: gold;
-}
+  }
 
-.main{
+  p { text-indent: 2rem; }
+
+  .main {
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.skills{
+  .skills {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+  }
 
-.skills  li{
+  .skills li {
     border-radius: 2px;
     margin: 2px;
     background: rgb(238, 236, 236);
     color: black;
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
   }
-
 </style>

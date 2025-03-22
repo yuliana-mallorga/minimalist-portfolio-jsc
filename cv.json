@@ -46,15 +46,17 @@
       "url": "https://web.rollingcodeschool.com/",
       "field": "Software Development",
       "title": "Full stack developer",
-      "skills": ["GitHub", "Git", "JSON", "Web", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "Npm (Software)", "HTML", "Teamwork", "CSS", "Problem-Solving", "Communication", "Axios", "Git", "SweetAlert2", "Bootstrap"],
+      "summary": ["At RollingCode, I learned to develop basic technologies and set up my work environment using Linux, VS Code, and the npm package manager. I developed collaborative skills in Teamwork and gained experience as a Scrum Master in the last two team projects.", "Additionally, I acquired knowledge in Git and GitHub for version control and worked with JavaScript, Node.js, and React.js for web development. I implemented HTML, CSS, and Bootstrap for interface layout, as well as used SweetAlert2 to enhance the user experience.", "I learned to handle JSON for data transfer and consume APIs with Axios. I also worked with Token (JWT) for user authentication in web applications. Thanks to this, I strengthened my skills in Problem-Solving and Communication within an agile and collaborative environment."],
+      "skills": ["Linux","Npm (Software)", "VS Code", "HTML", "CSS",  "Teamwork", "GitHub", "Git",  "Problem-Solving", "Communication", "SweetAlert2", "Bootstrap", "Axios", "dotenv", "JSON", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "API REST", "Postman"],
       "year": "2022"
     },
     {
       "institution": "Zero to Mastery",
       "url": "https://zerotomastery.io/",
       "field": "Software Development",
-      "title": "Full stack developer",
-      "skills": ["GitHub", "Git", "JSON", "Web", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "Npm (Software)", "HTML", "Teamwork", "CSS", "Problem-Solving", "Communication", "Axios", "Git", "SweetAlert2", "Bootstrap"],
+      "title": "Web developer",
+      "summary":["At Zero to Mastery, I took my basic skills to the next level with the Web Developer course, where I worked with technologies such as HTML, CSS, JavaScript, and React.js for building dynamic interfaces, as well as managing styles with Tachyons. I also improved my skills in Git and GitHub for version control.", "On the backend, I gained experience with Node.js and Express.js, interacting with SQL databases like PostgreSQL. I also used Postman to test and debug REST APIs, handling data formats in JSON.", "Thanks to this course, I strengthened my Problem-Solving skills by optimizing application performance and improving functionality with tools like Axios for managing HTTP requests."],
+      "skills": ["HTML", "CSS", "JavaScript", "GitHub", "Git", "JSON", "React.js", "Npm (Software)", "Tachyons", "Problem-Solving", "Axios", "dotenv", "Node.js",  "JSON", "express.js", "SQL", "Postman", "API REST", "PostgreSQL" ],
       "year": "2024"
     }
   ],
