@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Mallorga Yuliana",
-    "label": "Frontend Web Developer",
+    "label": "Full Stack Developer",
     "image": "https://avatars.githubusercontent.com/u/113486381?s=400&u=72423d59544d88d1404f478b9fb1c03086508878&v=4",
     "email": "yulianamallorga@gmail.com",
     "phone": "+54 381-6393820",
     "url": "https://yuliana-mallorga.com",
-    "summary": "Frontend developer with experience in responsive web design. Proven ability to work in collaborative environments and project management. Committed to constantly updating the latest technologies.",
+    "summary": ["Full Stack Web Developer with 3 years of experience in building modern, scalable, and efficient web applications. Specialized in HTML, CSS, and JavaScript, with expertise in frameworks like React, Vite, Bootstrap, Tailwind, and Astro, as well as backend technologies such as Node.js and Express.js. Additionally, experienced in databases like PostgreSQL.", "Passionate about developing high-quality software, applying best practices such as TDD and Clean Code. Skilled in responsive web design, ensuring adaptable and optimized interfaces across different devices. Strong team player with experience in project management, having served as a Scrum Master in two projects.", "Committed to continuous learning and the adoption of cutting-edge technologies to develop innovative, scalable, and high-performance solutions. "],
     "location": {
       "address": "Santa fe 452",
       "postalCode": "T4000",
@@ -28,20 +28,34 @@
     ]
   },
   "work": [{
-    "name": "Yuliana Mallorga",
-    "position": "",
-    "url": "",
-    "startDate": "2022-08-08",
+    "name": "Personal Project",
+    "position": "Full Stack Developer",
+    "FeaturedProject": "Facial Recognition Project",
+    "urlFrontend": "https://facial-recognition-project-t6h5.onrender.com/",
+    "urlFrontendGit": "https://github.com/yuliana-mallorga/Facial-recognition-project",
+    "urlBackend": "https://facial-recognition-api-back-end.onrender.com/",
+    "urlBackendGit": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
+    "startDate": "2024-03-27",
     "endDate": null,
-    "summary": "web development",
-    "highlights": []
+    "summary": ["Developed a web application using React, Vite, and Tachyons, improving the UI/UX experience.", "Integrated a REST API (Clarifai) using Axios for efficient data consumption.", "Implemented the backend with Node.js and Express.js, managing the database with PostgreSQL.", "Deployed the application to the cloud for public access."],
+    "highlights": ["Full Stack Developer with experience in HTML, CSS, JavaScript, React, Vite, Astro Bootstrap, Tailwind, Node.js, Express.js and PostgreSQL.", "Implementation of RESTful APIs and optimization of SQL and NoSQL databases.", "Application of TDD and Clean Code to improve software quality.", "Experience with cloud deployment using Netlify and Render.", "Work in agile teams with Scrum and GitHub Projects." ]
   }],
   "education": [
     {
-      "institution": "RollingCode",
+      "institution": "RollingCode school",
       "url": "https://web.rollingcodeschool.com/",
-      "area": "Software Development",
-      "courses": ["Full stack developer"]
+      "field": "Software Development",
+      "title": "Full stack developer",
+      "skills": ["GitHub", "Git", "JSON", "Web", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "Npm (Software)", "HTML", "Teamwork", "CSS", "Problem-Solving", "Communication", "Axios", "Git", "SweetAlert2", "Bootstrap"],
+      "year": "2022"
+    },
+    {
+      "institution": "Zero to Mastery",
+      "url": "https://zerotomastery.io/",
+      "field": "Software Development",
+      "title": "Full stack developer",
+      "skills": ["GitHub", "Git", "JSON", "Web", "Token (JWT)", "React.js", "Node.js", "JavaScript", "JSON", "Npm (Software)", "HTML", "Teamwork", "CSS", "Problem-Solving", "Communication", "Axios", "Git", "SweetAlert2", "Bootstrap"],
+      "year": "2024"
     }
   ],
   "certificates": [

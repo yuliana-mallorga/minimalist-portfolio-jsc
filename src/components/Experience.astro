@@ -1,14 +1,14 @@
 ---
 import Section from "@/components/sections/Section.astro";
 import { work } from "@cv";
+import ApprovedIcon  from "@/icons/Approved.astro"
 ---
 
-<Section title="Experience">
+<Section title="Practical Experience">
   <ul>
     {
-      work.map(({ name, position, startDate, endDate, summary }) => {
+      work.map(({ name, position, FeaturedProject, urlFrontend, urlFrontendGit, urlBackend, urlBackendGit, startDate, endDate, summary, highlights }) => {
         const startYear = new Date(startDate).getUTCFullYear();
-        console.log("startYear", new Date(startDate));
         
         const endYear = endDate !== null ? new Date(endDate).getFullYear() : "Currently";
         const years = `${startYear} - ${endYear}`;
@@ -17,13 +17,29 @@ import { work } from "@cv";
             <article>
               <header>
                 <div>
-                  <h3>{name}</h3>
-                  <h4>{position}</h4>
+                  <h3>{position}<span class="project">({ name })</span></h3> 
+                  <ul class="margin">
+                    {summary.map((action)=>{
+                      return <li><span><ApprovedIcon/></span>{ action }</li>
+                    })}
+                  </ul>
                 </div>
                 <time>{years}</time>
               </header>
+              <body>
+                <h3 class="margin">Highlights:</h3>
+                <ul class="margin">
+                  {highlights.map((highlights)=>{
+                      return <li><span><ApprovedIcon/></span>{ highlights }</li>
+                  })}
+                </ul>
+              </body>
               <footer>
-                <p>{summary}</p>
+                <h3 class="margin">Featured Project: {FeaturedProject}</h3>
+                <h5>Frontend Deployment:<a href={urlFrontend}>{urlFrontend}</a></h5>
+                <h5>Frontend Deployment Git:<a href={urlFrontendGit}>{urlFrontendGit}</a></h5>
+                <h5>Backend Deployment: <a href={urlBackend}>{urlBackend}</a></h5>
+                <h5>Backend Deployment: Git <a href={urlBackendGit}>{urlBackendGit}</a></h5>
               </footer>
             </article>
           </li>
@@ -38,6 +54,27 @@ import { work } from "@cv";
     display: flex;
     flex-direction: column;
     gap: 32px;
+  }
+
+  a:hover{
+    background-color: gold;
+  } 
+  .project{
+    padding-left: 5px;
+  }
+
+  .margin{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .margin li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .margin span {
+    padding-right: 5px;
   }
 
   article h3 {

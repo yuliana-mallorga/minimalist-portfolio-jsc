@@ -1,6 +1,79 @@
 ---
 import Section from "@/components/sections/Section.astro"
+import { education } from "@cv"
+import Computer from "@/icons/Computer.astro"
 ---
 <Section title="Education">
-
+    <ul>
+        {
+          education.map(({ institution, url, title, skills, year}) => {
+            return (
+              <li class="section">
+                <article>
+                  <header>
+                    <div class="main">
+                        <Computer width="26px" height="16px" />
+                        <h3>{title}</h3> 
+                        <span> - </span>
+                        <h3>[{institution}]</h3> 
+                        <time>[{year}]</time>
+                        <a href={url}>Link</a>
+                      
+                    </div>
+                   
+                  </header>
+                  <footer>
+                    
+                    <h5>Skills:</h5>
+                    <ul class="skills">
+                      {skills.map((skill)=>{
+                          return <li>{ skill }</li>
+                      })}
+                    </ul>
+                  </footer>
+                </article>
+              </li>
+            );
+          })
+        }
+      </ul>
 </Section>
+
+<style>
+
+.section{
+    margin-bottom: 1rem;
+}
+
+a{
+    padding: 2px;
+    
+}
+
+a:hover{
+    background-color: gold;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills  li{
+    border-radius: 2px;
+    margin: 2px;
+    background: rgb(238, 236, 236);
+    color: black;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+</style>

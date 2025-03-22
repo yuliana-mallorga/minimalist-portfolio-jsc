@@ -5,5 +5,11 @@ import { basics } from "@cv"
 const { summary } = basics
 ---
 <Section title="About">
-    <p>{ summary }</p>
+    { summary.map((paragraph)=>{
+        return <p> {paragraph} </p>
+    })}
 </Section>
+
+<style>
+    p { text-indent: 2rem; }
+</style>
