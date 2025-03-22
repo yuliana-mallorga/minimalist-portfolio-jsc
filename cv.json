@@ -7,9 +7,9 @@
     "phone": "+54 381-6393820",
     "url": "https://yuliana-mallorga.com",
     "summary": [
-      "Full Stack Web Developer with 3 years of experience in building modern, scalable, and efficient web applications. Specialized in HTML, CSS, and JavaScript, with expertise in frameworks like React, Vite, Bootstrap, Tailwind, and Astro, as well as backend technologies such as Node.js and Express.js. Additionally, experienced in databases like PostgreSQL.",
-      "Passionate about developing high-quality software, applying best practices such as TDD and Clean Code. Skilled in responsive web design, ensuring adaptable and optimized interfaces across different devices. Strong team player with experience in project management, having served as a Scrum Master in two projects.",
-      "Committed to continuous learning and the adoption of cutting-edge technologies to develop innovative, scalable, and high-performance solutions. "
+      "Full Stack Web Developer with 3 years of experience in building modern, and efficient web applications. Specialized in HTML, CSS, and JavaScript, with expertise in frameworks like React, Vite, Bootstrap, Tailwind, and Astro, as well as backend technologies such as Node.js and Express.js. Additionally, experienced in databases like PostgreSQL.",
+      "Passionate about developing high-quality software, applying best practices such as Clean Code. Skilled in responsive web design, ensuring adaptable and optimized interfaces across different devices. Strong team player with experience in project management, having served as a Scrum Master in two projects.",
+      "Committed to continuous learning and the adoption of cutting-edge technologies to develop innovative, and high-performance solutions. "
     ],
     "location": {
       "address": "Santa fe 452",
@@ -51,7 +51,6 @@
       "highlights": [
         "Full Stack Developer with experience in HTML, CSS, JavaScript, React, Vite, Astro Bootstrap, Tailwind, Node.js, Express.js and PostgreSQL.",
         "Implementation of RESTful APIs and optimization of SQL and NoSQL databases.",
-        "Application of TDD and Clean Code to improve software quality.",
         "Experience with cloud deployment using Netlify and Render.",
         "Work in agile teams with Scrum and GitHub Projects."
       ]
@@ -194,19 +193,89 @@
       ]
     },
     {
-      "name": "API Development",
-      "level": "Upper Intermediate",
-      "keywords": [
-        "Backend",
-        "Integrations",
-        "Web services",
-        "Web architectures"
-      ]
-    },
-    {
       "name": "Vite",
       "level": "Upper Intermediate",
       "keywords": ["Development tool", "Frontend", "JavaScript", "Bundler"]
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate",
+      "keywords": [
+        "Static Site Generator",
+        "JavaScript Framework",
+        "Component-Based Architecture",
+        "Server-Side Rendering",
+        "Markdown",
+        "Astro Components",
+        "Vite",
+        "Build Optimization",
+        "SEO Optimization",
+        "API Integration",
+        "Multi-Framework Support",
+        "Deployments",
+        "Content Management Systems (CMS)",
+        "Astro CLI",
+        "TypeScript Support",
+        "Progressive Enhancement",
+        "Web Performance"
+      ]
+    },
+    {
+      "name": "Trello",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Project Management",
+        "Collaboration",
+        "Task Management",
+        "Boards",
+        "Lists",
+        "Cards",
+        "Labels",
+        "Automation (Butler)",
+        "Workflow",
+        "Team Coordination",
+        "Integration",
+        "Slack Integration",
+        "Power-Ups",
+        "Deadlines",
+        "Productivity Tools",
+        "Time Tracking",
+        "Collaboration Tools",
+        "Prioritization",
+        "Agile Methodology",
+        "Task Dependencies",
+        "Custom Fields"
+      ]
+    },
+    {
+      "name": "Scrum Master",
+      "level": "Intermediate",
+      "keywords": [
+        "Agile Methodology",
+        "Scrum Framework",
+        "Sprint Planning",
+        "Scrum Ceremonies",
+        "Daily Standups",
+        "Sprint Retrospective",
+        "Backlog Grooming",
+        "Team Facilitation",
+        "Cross-Functional Teams",
+        "Conflict Resolution",
+        "Continuous Improvement",
+        "Collaboration",
+        "Team Empowerment",
+        "Burndown Charts",
+        "Velocity Tracking",
+        "Scrum Artifacts",
+        "Timeboxing",
+        "Agile Transformation",
+        "Roadblock Removal",
+        "Scrum Master Coaching",
+        "Stakeholder Communication",
+        "Sprint Execution",
+        "Risk Management",
+        "Agile Best Practices"
+      ]
     },
     {
       "name": "Git",
@@ -264,6 +333,11 @@
       "keywords": ["CSS framework", "Frontend", "Web design", "Custom styles"]
     },
     {
+      "name": "Tachyons",
+      "level": "Intermediate",
+      "keywords": ["CSS framework", "Frontend", "Web design", "Custom styles"]
+    },
+    {
       "name": "Problem resolution",
       "level": "Upper Intermediate",
       "keywords": [
@@ -284,6 +358,16 @@
       ]
     },
     {
+      "name": "API Development",
+      "level": "Upper Intermediate",
+      "keywords": [
+        "Backend",
+        "Integrations",
+        "Web services",
+        "Web architectures"
+      ]
+    },
+    {
       "name": "dotenv",
       "level": "Intermediate",
       "keywords": [
@@ -298,33 +382,6 @@
         "API Keys",
         "Environment Separation",
         "Sensitive Data Handling"
-      ]
-    },
-    {
-      "name": "Trello",
-      "level": "Upper Intermediate",
-      "keywords": [
-        "Project Management",
-        "Collaboration",
-        "Task Management",
-        "Boards",
-        "Lists",
-        "Cards",
-        "Labels",
-        "Automation (Butler)",
-        "Workflow",
-        "Team Coordination",
-        "Integration",
-        "Slack Integration",
-        "Power-Ups",
-        "Deadlines",
-        "Productivity Tools",
-        "Time Tracking",
-        "Collaboration Tools",
-        "Prioritization",
-        "Agile Methodology",
-        "Task Dependencies",
-        "Custom Fields"
       ]
     },
     {
