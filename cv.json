@@ -139,17 +139,17 @@
   "skills": [
     {
       "name": "HTML",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Frontend", "Web development", "Markup", "Web structure"]
     },
     {
       "name": "CSS",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Frontend", "Web development", "Web design", "Web styles"]
     },
     {
       "name": "JavaScript",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
         "Frontend",
         "Web development",
@@ -159,7 +159,7 @@
     },
     {
       "name": "React.js",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
         "Frontend",
         "Web development",
@@ -169,12 +169,12 @@
     },
     {
       "name": "Linux",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["Operating system", "Servers", "Security", "Command line"]
     },
     {
       "name": "JSON",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
         "Data interchange",
         "Text formats",
@@ -184,7 +184,7 @@
     },
     {
       "name": "npm",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
         "Package manager",
         "Web development",
@@ -194,7 +194,7 @@
     },
     {
       "name": "Vite",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": ["Development tool", "Frontend", "JavaScript", "Bundler"]
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "name": "Trello",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": [
         "Project Management",
         "Collaboration",
@@ -279,12 +279,12 @@
     },
     {
       "name": "Git",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": ["Version control", "Collaboration", "Software development"]
     },
     {
       "name": "GitHub",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": [
         "Code hosting platform",
         "Version control",
@@ -294,7 +294,7 @@
     },
     {
       "name": "Eslint",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": [
         "Code linting",
         "Code quality",
@@ -324,7 +324,7 @@
     },
     {
       "name": "Bootstrap",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": ["CSS framework", "Frontend", "Web design", "UI components"]
     },
     {
@@ -339,7 +339,7 @@
     },
     {
       "name": "Problem resolution",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": [
         "Problem-solving skills",
         "Critical thinking",
@@ -349,7 +349,7 @@
     },
     {
       "name": "Oral communication",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
         "Verbal communication",
         "Presenting ideas",
@@ -359,7 +359,7 @@
     },
     {
       "name": "API Development",
-      "level": "Upper Intermediate",
+      "level": "Intermediate",
       "keywords": [
         "Backend",
         "Integrations",
@@ -369,7 +369,7 @@
     },
     {
       "name": "dotenv",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": [
         "Environment Variables",
         "Configuration Management",
@@ -386,7 +386,7 @@
     },
     {
       "name": "Postman",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": [
         "API Testing",
         "API Development",
@@ -403,7 +403,7 @@
     },
     {
       "name": "PostgreSQL",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": [
         "Relational Database",
         "SQL",
@@ -447,7 +447,7 @@
     {
       "name": "Blog anime",
       "description": "This project is a website with an anime blog theme. On our page, you will find different sections such as the image gallery, about us, login, contact, in addition to the home page. Our website is carefully designed with an attractive and easy to navigate interface, created with HTML and CSS.",
-      "url": "https://github.com/yuliana-mallorga/Blog-anime.git",
+      "urlCode": "https://github.com/yuliana-mallorga/Blog-anime.git",
       "demoUrl": "https://blog-anime-equipo5-rolling.netlify.app/",
       "highlights": ["HTML", "CSS", "Website design", "User Interface"],
       "isActive": false
@@ -455,7 +455,7 @@
     {
       "name": "Filmax",
       "description": "The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
-      "url": "https://github.com/mcolombotto/23iModulo2Grupo2",
+      "urlCode": "https://github.com/mcolombotto/23iModulo2Grupo2",
       "demoUrl": "https://proyecto-modulo2-grupo2.netlify.app/",
       "highlights": [
         "CRUD operations",
@@ -463,6 +463,63 @@
         "Web application",
         "Movie & Series Management"
       ],
+      "isActive": false
+    },
+    {
+      "name": "React technical test",
+      "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
+      "description": "The project consists of a web page as part of a technical test for React beginners and learners. It consumes two APIs and follows these instructions: First, a random fact about cats is recorded from the first API. Second, the first three words of the fact are extracted. Third, an image of a cat is displayed with the first three words of the previous fact.",
+      "demoUrl": null,
+      "highlights": ["React", "Vite", "Data interchange", "Text formats",
+        "APIs", "Web applications"],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "demoUrl": "",
+      "highlights": [],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "urlCode": "",
+      "demoUrl": "",
+      "highlights": [],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "demoUrl": "",
+      "highlights": [],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "demoUrl": "",
+      "highlights": [],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "urlCode": "",
+      "demoUrl": "",
+      "highlights": [],
+      "isActive": false
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "demoUrl": "",
+      "highlights": [],
       "isActive": false
     },
     {
@@ -476,7 +533,7 @@
     {
       "name": "Twitter Follow Card",
       "description": "The Twitter Follow Card Component project focuses on developing a custom component for web applications using React. This component will allow developers to easily integrate Twitter follow cards into their sites with customization options. Vite is used as the development environment, and ESLint rules are applied to maintain code quality.",
-      "url": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "urlCode": "https://github.com/yuliana-mallorga/TwitterFollowCard",
       "demoUrl": null,
       "highlights": [
         "React",
@@ -497,7 +554,7 @@
         "Survey Management",
         "API Integration"
       ],
-      "isActive": true
+      "isActive": false
     }
   ]
 }
