@@ -3,18 +3,12 @@ import Section from "@/components/sections/Section.astro";
 import { skills } from "@cv";
 ---
 
-<Section title="Skills">
+<Section title="Total Technical Skills">
   <ul>
     {
       skills.map(({ name, level, keywords}) => (
         <li>
           <h4>{name} <span class="ml">- Level: {level}</span></h4>
-          <ul>
-            { keywords.map((keyword, index)=>{
-              const last = index === keywords.length - 1;
-              return <li>{keyword}  {!last && '-'}</li>;
-            })}
-          </ul>
         </li>
       ))
     }
@@ -27,12 +21,14 @@ import { skills } from "@cv";
     flex-wrap: wrap;
   }
 
-  li{
-    border-radius: 4px;
-    color: black;
-    font-size: .8rem;
-    font-weight: 500;
-    padding: 0.2rem 0.1rem;
+  li {
+    border-radius: 6px;
+    background: #eee;
+    color: #333;
+    padding: 0.1rem 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: .5rem
+    ;
   }
 
   .ml{
