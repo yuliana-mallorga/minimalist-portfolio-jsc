@@ -7,7 +7,7 @@ import ApprovedIcon  from "@/icons/Approved.astro"
 <Section title="Practical Experience">
   <ul>
     {
-      work.map(({ name, position, FeaturedProject, urlFrontend, urlFrontendGit, urlBackend, urlBackendGit, startDate, endDate, summary, highlights }) => {
+      work.map(({ projectType, position, projectName, urlFrontend, urlFrontendGit, urlBackend, urlBackendGit, startDate, endDate, achievements }) => {
         const startYear = new Date(startDate).getUTCFullYear();
         
         const endYear = endDate !== null ? new Date(endDate).getFullYear() : "Currently";
@@ -17,10 +17,10 @@ import ApprovedIcon  from "@/icons/Approved.astro"
             <article>
               <header>
                 <div>
-                  <h3>Featured Project:<span>{FeaturedProject}</span></h3>
-                  <h4>{position}<span class="pl">({ name })</span></h4> 
+                  <h3>{projectName}</h3>
+                  <h4>{position}<span class="pl">({ projectType })</span></h4> 
                   <ul class="margin">
-                    {summary.map((taskList)=>{
+                    {achievements.map((taskList)=>{
                       return <li><span><ApprovedIcon/></span>{ taskList }</li>
                     })}
                   </ul>
@@ -31,14 +31,14 @@ import ApprovedIcon  from "@/icons/Approved.astro"
                 <div >
                   {(urlFrontend || urlFrontendGit) && <h4>Frontend code:</h4>}
                   <div class="frontend">
-                    {urlFrontend && <a  class="button-link" href={urlFrontend} target="_blank" rel="noopener noreferrer">Deploy site</a>}
+                    {urlFrontend && <a  class="button-link" href={urlFrontend} target="_blank" rel="noopener noreferrer">Website</a>}
                     {urlFrontendGit && <a class="button-link" href={urlFrontendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
                   </div>
                 </div>
                 <div>
                   {(urlBackend || urlBackendGit) && <h4>Backend code:</h4>}
                   <div class="backend">
-                    {urlBackend && <a  class="button-link" href={urlBackend} target="_blank" rel="noopener noreferrer">Deploy site</a>}
+                    {urlBackend && <a  class="button-link" href={urlBackend} target="_blank" rel="noopener noreferrer">Website</a>}
                     {urlBackendGit && <a class="button-link" href={urlBackendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
                   </div>
                 </div>
@@ -55,7 +55,7 @@ import ApprovedIcon  from "@/icons/Approved.astro"
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 1rem;
   }
 
   a:hover{

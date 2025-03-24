@@ -33,16 +33,16 @@
   },
   "work": [
     {
-      "name": "Personal Project",
+      "projectType": "Personal Project",
+      "projectName": "Facial Recognition Project",
       "position": "Full Stack Developer",
-      "FeaturedProject": "Facial Recognition Project",
       "urlFrontend": "https://facial-recognition-project-t6h5.onrender.com/",
       "urlFrontendGit": "https://github.com/yuliana-mallorga/Facial-recognition-project",
       "urlBackend": "https://facial-recognition-api-back-end.onrender.com/",
       "urlBackendGit": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
       "startDate": "2024-03-27",
       "endDate": "2024-12-12",
-      "summary": [
+      "achievements": [
         "Developed a web application using React, Vite, and Tachyons, improving the UI/UX experience.",
         "Integrated a REST API (Clarifai) using Axios for efficient data consumption.",
         "Implemented the backend with Node.js and Express.js, managing the database with PostgreSQL.",
@@ -54,6 +54,34 @@
         "Experience with cloud deployment using Netlify and Render.",
         "Work in agile teams with Scrum and GitHub Projects."
       ]
+    },
+    {
+      "projectType": "Team Project",
+      "projectName": "Filmax",
+      "position": "Full Stack Developer",
+      "urlFrontend": "",
+      "urlFrontendGit": "",
+      "urlBackend": "",
+      "urlBackendGit": "",
+      "startDate": "2024-03-27",
+      "endDate": "2024-12-12",
+      "achievements": [
+      ],
+      "highlights": []
+    },
+    {
+      "projectType": "Team Project",
+      "projectName": "",
+      "position": "Full Stack Developer",
+      "urlFrontend": "",
+      "urlFrontendGit": "",
+      "urlBackend": "",
+      "urlBackendGit": "",
+      "startDate": "2024-03-27",
+      "endDate": "2024-12-12",
+      "achievements": [
+      ],
+      "highlights": []
     }
   ],
   "education": [
@@ -130,7 +158,7 @@
   ],
   "courses": [
     {
-      "name": "React JS desde cero",
+      "name": "React JS from scratch",
       "url": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw3SOgpSS37xPZ4baqYVmro-&index=5&t=4433s",
       "code": null,
       "year": "2023"
@@ -176,6 +204,12 @@
       "url": "https://www.youtube.com/watch?v=GOEiMwDJ3lc&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=5",
       "code": "https://github.com/yuliana-mallorga/React-Movie-Search",
       "year": "2023"
+    },
+    {
+      "name": "Learning Tailwind CSS from Scratch. Style Faster!",
+      "url": "https://www.youtube.com/watch?v=h5HQVHTpeHs&t=2584s",
+      "code": null,
+      "year": "2024"
     },
     {
       "name": "How to create ChatGPT 2.0 for FREE with HTML, CSS, and JavaScript on your PC",
@@ -320,7 +354,7 @@
     },
     {
       "name": "Scrum Master",
-      "level": "Intermediate",
+      "level": "Basic",
       "keywords": [
         "Agile Methodology",
         "Scrum Framework",
