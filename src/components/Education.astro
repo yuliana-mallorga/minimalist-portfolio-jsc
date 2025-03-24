@@ -5,7 +5,7 @@ import { courses } from "@cv";
 import Computer from "@/icons/Computer.astro";
 ---
 
-<Section title="Education & Training">
+<Section title="Education">
   <article>
     <ul>
       {
@@ -42,64 +42,6 @@ import Computer from "@/icons/Computer.astro";
         })
       }
     </ul>
-  </article>
-  <article class="courses">
-    <header class="header">
-      <Computer width="26px" height="16px" />
-      <h3 class="ml">Relevant courses:</h3>
-    </header>
-    <footer>
-      <ul>
-        {
-          courses.map(({ name, project, url, code, year }) => {
-            return (
-              <li class="section">
-                <article>
-                  <header>
-                    <div class="main">
-                      <div>
-                        <h4 class="ml">
-                          <span>&bull;</span>
-                          {name}
-                        </h4>
-                        {project && (
-                          <h5>
-                            Project:{project}
-                          </h5>
-                        )}
-                      </div>
-                      <time class="pt">[{year}]</time>
-                    </div>
-                  </header>
-                  <footer class="footer-course">
-                    {url && (
-                      <a
-                        class="button-link"
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        Course
-                      </a>
-                    )}
-                    {code && (
-                      <a
-                        class="button-link"
-                        href={code}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        GitHub Repo
-                      </a>
-                    )}
-                  </footer>
-                </article>
-              </li>
-            );
-          })
-        }
-      </ul>
-    </footer>
   </article>
 </Section>
 
