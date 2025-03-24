@@ -1,11 +1,13 @@
 ---
 import Section from "@/components/sections/Section.astro";
 import { education } from "@cv";
+import { courses } from "@cv";
 import Computer from "@/icons/Computer.astro";
 ---
 
-<Section title="Education">
-  <ul>
+<Section title="Education & Training">
+ <article>
+  <ul> 
     {
       education.map(({ institution, url, summary, title, skills, year }) => {
         return (
@@ -43,6 +45,39 @@ import Computer from "@/icons/Computer.astro";
       })
     }
   </ul>
+ </article>
+ <article class="courses">
+  <header class="header">
+    <Computer width="26px" height="16px" />
+    <h3 class="ml">Relevant courses:</h3>
+  </header>
+  <footer>
+    <ul> 
+      {
+        courses.map(({ name, url, code, year }) => {
+          return (
+            <li class="section">
+              <article>
+                <header>
+                  <div class="main">
+                    <div class="header">
+                      <h4 class="ml"><span>&bull;</span>{name}</h4>
+                    </div>
+                    <time>[{year}]</time>
+                  </div>
+                </header>
+                <footer class="footer-course">
+                  <a class="button-link" href={url} target="_blank" rel="noopener noreferrer">Course</a>
+                  <a class="button-link" href={code} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+                </footer>
+              </article>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </footer>
+ </article>
 </Section>
 
 <style>
@@ -64,10 +99,6 @@ import Computer from "@/icons/Computer.astro";
 
   a {
     padding: 2px;
-  }
-
-  a:hover {
-    background-color: gold;
   }
 
   p {
@@ -94,5 +125,46 @@ import Computer from "@/icons/Computer.astro";
     font-size: 0.8rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+  }
+
+  /* courses article styles */
+  .courses{
+    margin-top: 2rem;
+  }
+
+  .courses span {
+    font-size: x-large;
+    margin-right: 1rem;
+  }
+
+  .footer-course{
+    display: flex;
+    justify-content: start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .button-link {
+    background: rgb(238, 236, 236);
+    color: black;
+    border: 1px solid rgb(23, 22, 23);
+    border-radius: 2px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    box-shadow: inset 0 0 0 0 #f5da79;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+  }
+
+  .button-link:hover {
+    box-shadow: inset 400px 0 0 0 #f5da79;
+  }
+
+  @media print {
+    .button-link {
+      display: none;
+    }
   }
 </style>
