@@ -136,50 +136,65 @@
       "year": "2023"
     },
     {
+      "name": "React Course 2024 - Learn from Scratch",
+      "project":"Twitter Follow Card",
+      "url": "https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29",
+      "code": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "year": "2023"
+    },
+    {
+      "name": "React Course from Scratch: Create a Video Game and an Application to Learn useState and useEffect",
+      "project": "Tic-tac-toe game",
+      "url": "https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=2",
+      "code":"https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "year": "2023"
+    },
+    {
+      "name": "React Course from Scratch: Create a Video Game and an Application to Learn useState and useEffect",
+      "project": "Mouse follower",
+      "url": "https://www.youtube.com/watch?v=qkzcjwnueLA",
+      "code": "https://github.com/yuliana-mallorga/Mouse-follower",
+      "year": "2023"
+    },
+    {
       "name": "React Technical Test for Juniors and Trainees",
+      "project": "React technical test",
       "url": "https://www.youtube.com/watch?v=XYpadB4VadY",
       "code": "https://github.com/yuliana-mallorga/React-technical-test",
       "year": "2023"
     },
     {
-      "name": "React Movies Search",
-      "url": "",
-      "code": "https://github.com/yuliana-mallorga/React-test-technique-movies",
+      "name": "Custom Hooks + Testing with Playwright: React Course from Scratch - Part 4",
+      "project": "React technical test",
+      "url": "https://www.youtube.com/watch?v=x-LcbVw99o8&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=4",
+      "code": "https://github.com/yuliana-mallorga/React-technical-test",
       "year": "2023"
     },
     {
-      "name": "Twitter Follow Card",
-      "url": "",
-      "code": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "name": "Learn How to Pass a React Technical Test. Understand useMemo, useCallback, and useRef [React Course]",
+      "project": "React Movie Search",
+      "url": "https://www.youtube.com/watch?v=GOEiMwDJ3lc&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=5",
+      "code": "https://github.com/yuliana-mallorga/React-Movie-Search",
       "year": "2023"
     },
     {
-      "name": "Mouse follower",
-      "url": "",
-      "code": "https://github.com/yuliana-mallorga/Mouse-follower",
-      "year": "2023"
-    },
-    {
-      "name": "Tic-tac-toe game",
-      "url": "",
-      "code":"https://github.com/yuliana-mallorga/Tic-tac-toe-game",
-      "year": "2023"
-    },
-    {
-      "name": "Chatgpt local",
-      "url": "",
+      "name": "How to create ChatGPT 2.0 for FREE with HTML, CSS, and JavaScript on your PC",
+      "project": "Chatgpt local",
+      "url": "https://www.youtube.com/watch?v=HvoiF1MCPGs",
       "code": "https://github.com/yuliana-mallorga/chatgpt-local",
       "year": "2024"
     },
     {
-      "name": "Astro demo",
-      "url": "",
+      "name": "Learn Astro 3 from scratch: Beginner course + app with Astro", 
+      "project":"Astro demo",
+      "url": "https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2s",
       "code": "https://github.com/yuliana-mallorga/astro-demo",
       "year": "2024"
     },
     {
-      "name": "Pending Task React Ts",
-      "url": "",
+      "name": "Practical tutorial: React and TypeScript step by step, create your first application",
+      "project": "Pending Task React Ts",
+      "url": "https://www.youtube.com/watch?v=4lAYfsq-2TE&t=84s",
       "code": "https://github.com/yuliana-mallorga/Pending-Task-React-Ts",
       "year": "2024"
     }
@@ -531,9 +546,10 @@
     {
       "name": "Filmax",
       "description": "The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
-      "urlCode": "https://github.com/mcolombotto/23iModulo2Grupo2",
+      "urlCode": "https://github.com/yuliana-mallorga/Filmax",
       "demoUrl": "https://proyecto-modulo2-grupo2.netlify.app/",
       "highlights": [
+        "HTML", "CSS", "JavaScript", "json",
         "CRUD operations",
         "User Authentication",
         "Web application",
@@ -551,9 +567,17 @@
       "isActive": false
     },
     {
+      "name": "Background-Generator-Project",
+      "description": "This project is used to generate gradient backgrounds.",
+      "urlCode": "https://github.com/yuliana-mallorga/Background-Generator-Project",
+      "demoUrl": "https://yuliana-mallorga.github.io/Background-Generator-Project/",
+      "highlights": ["HTML", "CSS", "JavaScript", "Website design", "User Interface"],
+      "isActive": false
+    },
+    {
       "name": "",
       "description": "",
-      "url": "",
+      "urlCode": "",
       "demoUrl": "",
       "highlights": [],
       "isActive": false
@@ -569,15 +593,7 @@
     {
       "name": "",
       "description": "",
-      "url": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "url": "",
+      "urlCode": "",
       "demoUrl": "",
       "highlights": [],
       "isActive": false
@@ -593,7 +609,7 @@
     {
       "name": "",
       "description": "",
-      "url": "",
+      "urlCode": "",
       "demoUrl": "",
       "highlights": [],
       "isActive": false
@@ -601,7 +617,7 @@
     {
       "name": "Tic-Tac-Toe Game",
       "description": "The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
-      "url": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "urlCode": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
       "demoUrl": null,
       "highlights": ["React", "React DOM", "Vite", "Multiplayer Game"],
       "isActive": false
@@ -622,7 +638,7 @@
     {
       "name": "WorldSurveys - Final Project",
       "description": "It is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
-      "url": "https://github.com/mcolombotto/frontSurvey23i",
+      "urlCode": "https://github.com/mcolombotto/frontSurvey23i",
       "demoUrl": "https://world-surveys.netlify.app/",
       "highlights": [
         "ReactJS",
