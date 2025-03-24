@@ -25,10 +25,7 @@ import Computer from "@/icons/Computer.astro";
                 </header>
                 <body>
                   <article class="summary">
-                    {summary &&
-                      summary.map((paragraph) => {
-                        return <p>{paragraph}</p>;
-                      })}
+                    <p>{summary}</p>
                   </article>
                 </body>
                 <footer>

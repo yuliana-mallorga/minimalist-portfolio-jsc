@@ -90,11 +90,7 @@
       "url": "https://web.rollingcodeschool.com/",
       "field": "Software Development",
       "title": "Full stack developer",
-      "summary": [
-        "At RollingCode, I learned to develop basic technologies and set up my work environment using Linux, VS Code, and the npm package manager. I developed collaborative skills in Teamwork and gained experience as a Scrum Master in the last two team projects.",
-        "Additionally, I acquired knowledge in Git and GitHub for version control and worked with JavaScript, Node.js, and React.js for web development. I implemented HTML, CSS, and Bootstrap for interface layout, as well as used SweetAlert2 to enhance the user experience.",
-        "I learned to handle JSON for data transfer and consume APIs with Axios. I also worked with Token (JWT) for user authentication in web applications. Thanks to this, I strengthened my skills in Problem-Solving and Communication within an agile and collaborative environment."
-      ],
+      "summary": "At RollingCode, I developed foundational tech skills, set up my work environment with Linux and VS Code, and collaborated in team projects, serving as Scrum Master in the last two. I gained experience with Git/GitHub, JavaScript, Node.js, and React.js, using HTML, CSS, Bootstrap, and SweetAlert2 for UI. I worked with JSON, consumed APIs with Axios, and implemented JWT authentication. This experience enhanced my problem-solving and communication skills in an agile environment.",
       "skills": [
         "Linux",
         "Npm (Software)",
@@ -127,11 +123,7 @@
       "url": "https://zerotomastery.io/",
       "field": "Software Development",
       "title": "Web developer",
-      "summary": [
-        "At Zero to Mastery, I took my basic skills to the next level with the Web Developer course, where I worked with technologies such as HTML, CSS, JavaScript, and React.js for building dynamic interfaces, as well as managing styles with Tachyons. I also improved my skills in Git and GitHub for version control.",
-        "On the backend, I gained experience with Node.js and Express.js, interacting with SQL databases like PostgreSQL. I also used Postman to test and debug REST APIs, handling data formats in JSON.",
-        "Thanks to this course, I strengthened my Problem-Solving skills by optimizing application performance and improving functionality with tools like Axios for managing HTTP requests."
-      ],
+      "summary": "At Zero to Mastery, I took my basic skills to the next level with the Web Developer course, where I worked with technologies such as HTML, CSS, JavaScript, and React.js for building dynamic interfaces, as well as managing styles with Tachyons. I also improved my skills in Git and GitHub for version control. On the backend, I gained experience with Node.js and Express.js, interacting with SQL databases like PostgreSQL. I also used Postman to test and debug REST APIs, handling data formats in JSON. Thanks to this course, I strengthened my Problem-Solving skills by optimizing application performance and improving functionality with tools like Axios for managing HTTP requests.",
       "skills": [
         "HTML",
         "CSS",
