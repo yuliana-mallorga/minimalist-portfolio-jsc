@@ -9,6 +9,9 @@
       "@cv": [
         "./cv.json"
       ],
-    }
+    },
+    "jsx": "preserve",
+    "strict": true,
+    "types": ["astro/client"]
   }
 }
