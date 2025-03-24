@@ -6,69 +6,38 @@ import Computer from "@/icons/Computer.astro";
 ---
 
 <Section title="Education & Training">
- <article>
-  <ul> 
-    {
-      education.map(({ institution, url, summary, title, skills, year }) => {
-        return (
-          <li class="section">
-            <article>
-              <header>
-                <div class="main">
-                  <div class="header">
-                    <Computer width="26px" height="16px" />
-                    <h3 class="ml">{title}</h3>
-                    <h3 class="ml">[{institution}]</h3>
-                  </div>
-                  <time>[{year}]</time>
-                </div>
-              </header>
-              <body>
-                <article class="summary">
-                  {summary &&
-                    summary.map((paragraph) => {
-                      return <p>{paragraph}</p>;
-                    })}
-                </article>
-              </body>
-              <footer>
-                <h5>Skills:</h5>
-                <ul class="skills">
-                  {skills.map((skill) => {
-                    return <li>{skill}</li>;
-                  })}
-                </ul>
-              </footer>
-            </article>
-          </li>
-        );
-      })
-    }
-  </ul>
- </article>
- <article class="courses">
-  <header class="header">
-    <Computer width="26px" height="16px" />
-    <h3 class="ml">Relevant courses:</h3>
-  </header>
-  <footer>
-    <ul> 
+  <article>
+    <ul>
       {
-        courses.map(({ name, url, code, year }) => {
+        education.map(({ institution, url, summary, title, skills, year }) => {
           return (
             <li class="section">
               <article>
                 <header>
                   <div class="main">
                     <div class="header">
-                      <h4 class="ml"><span>&bull;</span>{name}</h4>
+                      <Computer width="26px" height="16px" />
+                      <h3 class="ml">{title}</h3>
+                      <h3 class="ml">[{institution}]</h3>
                     </div>
-                    <time>[{year}]</time>
+                    <time class="pt">[{year}]</time>
                   </div>
                 </header>
-                <footer class="footer-course">
-                  <a class="button-link" href={url} target="_blank" rel="noopener noreferrer">Course</a>
-                  <a class="button-link" href={code} target="_blank" rel="noopener noreferrer">GitHub repository</a>
+                <body>
+                  <article class="summary">
+                    {summary &&
+                      summary.map((paragraph) => {
+                        return <p>{paragraph}</p>;
+                      })}
+                  </article>
+                </body>
+                <footer>
+                  <h5>Skills:</h5>
+                  <ul class="skills">
+                    {skills.map((skill) => {
+                      return <li>{skill}</li>;
+                    })}
+                  </ul>
                 </footer>
               </article>
             </li>
@@ -76,16 +45,69 @@ import Computer from "@/icons/Computer.astro";
         })
       }
     </ul>
-  </footer>
- </article>
+  </article>
+  <article class="courses">
+    <header class="header">
+      <Computer width="26px" height="16px" />
+      <h3 class="ml">Relevant courses:</h3>
+    </header>
+    <footer>
+      <ul>
+        {
+          courses.map(({ name, project, url, code, year }) => {
+            return (
+              <li class="section">
+                <article>
+                  <header>
+                    <div class="main">
+                      <div>
+                        <h4 class="ml">
+                          <span>&bull;</span>
+                          {name}
+                        </h4>
+                        {project && (
+                          <h5>
+                            Project:{project}
+                          </h5>
+                        )}
+                      </div>
+                      <time class="pt">[{year}]</time>
+                    </div>
+                  </header>
+                  <footer class="footer-course">
+                    {url && (
+                      <a
+                        class="button-link"
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Course
+                      </a>
+                    )}
+                    {code && (
+                      <a
+                        class="button-link"
+                        href={code}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        GitHub Repo
+                      </a>
+                    )}
+                  </footer>
+                </article>
+              </li>
+            );
+          })
+        }
+      </ul>
+    </footer>
+  </article>
 </Section>
 
 <style>
   .section {
-    margin-bottom: 1rem;
-  }
-
-  header {
     margin-bottom: 1rem;
   }
 
@@ -127,8 +149,12 @@ import Computer from "@/icons/Computer.astro";
     padding: 0.2rem 0.6rem;
   }
 
+  .pt{
+    padding-top: 6px;
+  }
+
   /* courses article styles */
-  .courses{
+  .courses {
     margin-top: 2rem;
   }
 
@@ -137,7 +163,7 @@ import Computer from "@/icons/Computer.astro";
     margin-right: 1rem;
   }
 
-  .footer-course{
+  .footer-course {
     display: flex;
     justify-content: start;
     gap: 2rem;
