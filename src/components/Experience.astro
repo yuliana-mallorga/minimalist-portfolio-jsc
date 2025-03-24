@@ -17,21 +17,31 @@ import ApprovedIcon  from "@/icons/Approved.astro"
             <article>
               <header>
                 <div>
-                  <h3>{position}<span class="project">({ name })</span></h3> 
+                  <h3>Featured Project:<span>{FeaturedProject}</span></h3>
+                  <h4 class="margin">{position}<span class="project">({ name })</span></h4> 
                   <ul class="margin">
-                    {summary.map((action)=>{
-                      return <li><span><ApprovedIcon/></span>{ action }</li>
+                    {summary.map((taskList)=>{
+                      return <li><span><ApprovedIcon/></span>{ taskList }</li>
                     })}
                   </ul>
                 </div>
                 <time>{years}</time>
               </header>
               <footer>
-                <h3 class="margin">Featured Project: {FeaturedProject}</h3>
-                <h5>Frontend Deployment:<a href={urlFrontend}>{urlFrontend}</a></h5>
-                <h5>Frontend Deployment Git:<a href={urlFrontendGit}>{urlFrontendGit}</a></h5>
-                <h5>Backend Deployment: <a href={urlBackend}>{urlBackend}</a></h5>
-                <h5>Backend Deployment: Git <a href={urlBackendGit}>{urlBackendGit}</a></h5>
+                <div >
+                  {(urlFrontend || urlFrontendGit) && <h4>Frontend code:</h4>}
+                  <div class="frontend">
+                    {urlFrontend && <a  class="button-link" href={urlFrontend} target="_blank" rel="noopener noreferrer">Live Demo</a>}
+                    {urlFrontendGit && <a class="button-link" href={urlFrontendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
+                  </div>
+                </div>
+                <div>
+                  {(urlBackend || urlBackendGit) && <h4>Backend code:</h4>}
+                  <div class="backend">
+                    {urlBackend && <a  class="button-link" href={urlBackend} target="_blank" rel="noopener noreferrer">Live Demo</a>}
+                    {urlBackendGit && <a class="button-link" href={urlBackendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
+                  </div>
+                </div>
               </footer>
             </article>
           </li>
@@ -56,7 +66,7 @@ import ApprovedIcon  from "@/icons/Approved.astro"
   }
 
   .margin{
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
   }
 
@@ -65,8 +75,8 @@ import ApprovedIcon  from "@/icons/Approved.astro"
     align-items: center;
   }
   
-  .margin span {
-    padding-right: 5px;
+  span {
+    padding: 5px;
   }
 
   article h3 {
@@ -98,5 +108,43 @@ import ApprovedIcon  from "@/icons/Approved.astro"
 
   footer {
     margin-top: 0.3rem;
+  }
+
+  /* button */
+
+  .frontend,
+  .backend
+  {
+    display: flex;
+    justify-content: start;
+    gap: .5rem;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+  }
+
+  .button-link {
+    background: rgb(238, 236, 236);
+    color: black;
+    border: 1px solid rgb(23, 22, 23);
+    border-radius: 2px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    box-shadow: inset 0 0 0 0 #f5da79;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    max-width: 30%;
+    text-align: center;
+  }
+
+  .button-link:hover {
+    box-shadow: inset 400px 0 0 0 #f5da79;
+  }
+
+  @media print {
+    footer {
+      display: none;
+    }
   }
 </style>
