@@ -19,7 +19,7 @@ import Computer from "@/icons/Computer.astro";
                   </h4>
                 </div>
               </header>
-              <footer>
+              <footer class="buttons">
                 {url && (
                   <a
                     class="button-link"
@@ -98,4 +98,11 @@ import Computer from "@/icons/Computer.astro";
   .button-link:hover {
     box-shadow: inset 400px 0 0 0 #f5da79;
   }
+
+  @media print {
+    .buttons {
+      display: none;
+    }
+  }
+
 </style>
