@@ -41,7 +41,7 @@
       "urlBackend": "https://facial-recognition-api-back-end.onrender.com/",
       "urlBackendGit": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
       "startDate": "2024-03-27",
-      "endDate": null,
+      "endDate": "2024-12-12",
       "summary": [
         "Developed a web application using React, Vite, and Tachyons, improving the UI/UX experience.",
         "Integrated a REST API (Clarifai) using Axios for efficient data consumption.",
@@ -125,6 +125,62 @@
         "API REST",
         "PostgreSQL"
       ],
+      "year": "2024"
+    }
+  ],
+  "courses": [
+    {
+      "name": "React JS desde cero",
+      "url": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw3SOgpSS37xPZ4baqYVmro-&index=5&t=4433s",
+      "code": null,
+      "year": "2023"
+    },
+    {
+      "name": "React Technical Test for Juniors and Trainees",
+      "url": "https://www.youtube.com/watch?v=XYpadB4VadY",
+      "code": "https://github.com/yuliana-mallorga/React-technical-test",
+      "year": "2023"
+    },
+    {
+      "name": "React Movies Search",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/React-test-technique-movies",
+      "year": "2023"
+    },
+    {
+      "name": "Twitter Follow Card",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "year": "2023"
+    },
+    {
+      "name": "Mouse follower",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/Mouse-follower",
+      "year": "2023"
+    },
+    {
+      "name": "Tic-tac-toe game",
+      "url": "",
+      "code":"https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "year": "2023"
+    },
+    {
+      "name": "Chatgpt local",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/chatgpt-local",
+      "year": "2024"
+    },
+    {
+      "name": "Astro demo",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/astro-demo",
+      "year": "2024"
+    },
+    {
+      "name": "Pending Task React Ts",
+      "url": "",
+      "code": "https://github.com/yuliana-mallorga/Pending-Task-React-Ts",
       "year": "2024"
     }
   ],
@@ -425,9 +481,29 @@
         "Performance Optimization",
         "Security"
       ]
+    },
+    {
+      "name": "Tipescript",
+      "level": "Basic",
+      "keywords": [
+        "Types",
+        "Interfaces",
+        "Type Inference",
+        "Union Types",
+        "Type Annotations",
+        "Enums",
+        "Functions",
+        "Generics",
+        "Modules",
+        "Strict Typing"
+      ]
     }
   ],
   "languages": [
+    {
+      "language": "Spanish",
+      "level": "Native"
+    },
     {
       "language": "English",
       "level": "intermediate"
