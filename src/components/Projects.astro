@@ -16,11 +16,16 @@ import { projects } from "@cv";
                     <h3>{name}</h3>
                     {isActive && <span>&bull;</span>}
                   </a>
-                  {demoUrl !== null || undefined ? (
-                    <a href={demoUrl} title={`Watch the ${name} project demo`}>
-                      Project demo
-                    </a>
-                  ) : null}
+                  <div class="d-none">
+                    {demoUrl !== null || undefined ? (
+                      <a
+                        href={demoUrl}
+                        title={`Watch the ${name} project demo`}
+                      >
+                        Project demo
+                      </a>
+                    ) : null}
+                  </div>
                   <p>{description}</p>
                 </header>
                 <footer>
@@ -91,5 +96,11 @@ import { projects } from "@cv";
     background: #eee;
     color: #333;
     padding: 0.2rem 0.5rem;
+  }
+
+  @media print {
+    .d-none {
+      display: none;
+    }
   }
 </style>
