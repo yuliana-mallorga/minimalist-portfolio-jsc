@@ -64,7 +64,12 @@
       "urlBackendGit": "https://github.com/lucianodanert/backSurvey23i",
       "startDate": "2023-05-02",
       "endDate": "2023-06-30",
-      "achievements": ["I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.", "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.", "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.", "I collaborated on creating essential front-end components, such as Contact, Login (with validation), Register, Us, Navbar and Footer.", "Improved backend functionality, adding login validation and extending the user schema with img, role, and estate fields."
+      "achievements": [
+        "I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.",
+        "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.",
+        "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.",
+        "I collaborated on creating essential front-end components, such as Contact, Login (with validation), Register, Us, Navbar and Footer.",
+        "Improved backend functionality, adding login validation and extending the user schema with img, role, and estate fields."
       ],
       "highlights": [
         "Full Stack Developer with experience in HTML, CSS, JavaScript, React, Bootstrap, Node.js.",
@@ -83,7 +88,10 @@
       "urlBackendGit": null,
       "startDate": "2022-12-9",
       "endDate": "2022-12-20",
-      "achievements": [ "I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.", "We developed the application using HTML, CSS, Vanilla JS, and JSON files, incorporating Bootstrap and SweetAlert2 to improve the user experience.", "I collaborated on the creation of essential front-end components, such as the Contact, Error404, and About pages, the Navbar, and the Footer."
+      "achievements": [
+        "I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.",
+        "We developed the application using HTML, CSS, Vanilla JS, and JSON files, incorporating Bootstrap and SweetAlert2 to improve the user experience.",
+        "I collaborated on the creation of essential front-end components, such as the Contact, Error404, and About pages, the Navbar, and the Footer."
       ],
       "highlights": [
         "Full Stack Developer with experience in HTML, CSS, JavaScript.",
@@ -166,7 +174,7 @@
     },
     {
       "name": "React Course 2024 - Learn from Scratch",
-      "project":"Twitter Follow Card",
+      "project": "Twitter Follow Card",
       "url": "https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29",
       "code": "https://github.com/yuliana-mallorga/TwitterFollowCard",
       "year": "2023"
@@ -175,7 +183,7 @@
       "name": "React Course from Scratch: Create a Video Game and an Application to Learn useState and useEffect",
       "project": "Tic-tac-toe game",
       "url": "https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=2",
-      "code":"https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "code": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
       "year": "2023"
     },
     {
@@ -220,8 +228,8 @@
       "year": "2024"
     },
     {
-      "name": "Learn Astro 3 from scratch: Beginner course + app with Astro", 
-      "project":"Astro demo",
+      "name": "Learn Astro 3 from scratch: Beginner course + app with Astro",
+      "project": "Astro demo",
       "url": "https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2s",
       "code": "https://github.com/yuliana-mallorga/astro-demo",
       "year": "2024"
@@ -290,6 +298,16 @@
     },
     {
       "name": "npm",
+      "level": "Intermediate",
+      "keywords": [
+        "Package manager",
+        "Web development",
+        "Dependencies",
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "pnpm",
       "level": "Intermediate",
       "keywords": [
         "Package manager",
@@ -581,10 +599,13 @@
     {
       "name": "Filmax",
       "description": "The project consists of a web page with a catalog of movies and series, in the style of Netflix, HBO Max, Cuevana, among other examples. Here you can see, add, edit, delete movies and series, through an admin page. It also allows registering and entering a user.",
-      "urlCode": "https://github.com/yuliana-mallorga/Filmax",
+      "urlCode": "https://github.com/mcolombotto/23iModulo2Grupo2",
       "demoUrl": "https://proyecto-modulo2-grupo2.netlify.app/",
       "highlights": [
-        "HTML", "CSS", "JavaScript", "json",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "json",
         "CRUD operations",
         "User Authentication",
         "Web application",
@@ -593,12 +614,17 @@
       "isActive": false
     },
     {
-      "name": "React technical test",
-      "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
-      "description": "The project consists of a web page as part of a technical test for React beginners and learners. It consumes two APIs and follows these instructions: First, a random fact about cats is recorded from the first API. Second, the first three words of the fact are extracted. Third, an image of a cat is displayed with the first three words of the previous fact.",
-      "demoUrl": null,
-      "highlights": ["React", "Vite", "Data interchange", "Text formats",
-        "APIs", "Web applications"],
+      "name": "WorldSurveys",
+      "description": "It is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
+      "urlCode": "https://github.com/mcolombotto/frontSurvey23i",
+      "demoUrl": "https://world-surveys.netlify.app/",
+      "highlights": [
+        "ReactJS",
+        "CRUD operations",
+        "React Router",
+        "Survey Management",
+        "API Integration"
+      ],
       "isActive": false
     },
     {
@@ -606,55 +632,13 @@
       "description": "This project is used to generate gradient backgrounds.",
       "urlCode": "https://github.com/yuliana-mallorga/Background-Generator-Project",
       "demoUrl": "https://yuliana-mallorga.github.io/Background-Generator-Project/",
-      "highlights": ["HTML", "CSS", "JavaScript", "Website design", "User Interface"],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "urlCode": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "urlCode": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "urlCode": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "urlCode": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "",
-      "description": "",
-      "urlCode": "",
-      "demoUrl": "",
-      "highlights": [],
-      "isActive": false
-    },
-    {
-      "name": "Tic-Tac-Toe Game",
-      "description": "The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
-      "urlCode": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
-      "demoUrl": null,
-      "highlights": ["React", "React DOM", "Vite", "Multiplayer Game"],
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Website design",
+        "User Interface"
+      ],
       "isActive": false
     },
     {
@@ -664,22 +648,154 @@
       "demoUrl": null,
       "highlights": [
         "React",
+        "React DOM",
         "Custom Component",
         "Vite",
-        "Social Media Integration"
+        "Social Media Integration",
+        "CSS",
+        "React Hooks"
       ],
       "isActive": false
     },
     {
-      "name": "WorldSurveys - Final Project",
-      "description": "It is an app made with ReactJS with a survey theme, in which the admin can register surveys, modify them, view them and delete them. In it, tools such as React Router Dom are used to manage the routes that allow us to navigate between the different pages and JSON Server to simulate an external API.",
-      "urlCode": "https://github.com/mcolombotto/frontSurvey23i",
-      "demoUrl": "https://world-surveys.netlify.app/",
+      "name": "Tic-Tac-Toe Game",
+      "description": "The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
+      "urlCode": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "demoUrl": null,
       "highlights": [
-        "ReactJS",
-        "React Router",
-        "Survey Management",
-        "API Integration"
+        "React",
+        "React DOM",
+        "React Hooks",
+        "Vite",
+        "Eslint",
+        "Multiplayer Game"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "Mouse follower",
+      "description": "The 'Mouse follower' is a React project that follows the mouse pointer with an animation. It uses the useState and useEffect hooks to enable and disable mouse tracking.",
+      "urlCode": "https://github.com/yuliana-mallorga/Mouse-follower",
+      "demoUrl": null,
+      "highlights": [
+        "React",
+        "Vite",
+        "React DOM",
+        "Eslint",
+        "React Hooks",
+        "CSS"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "React technical test",
+      "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
+      "description": "The project consists of a web page as part of a technical test for React beginners and learners. It consumes two APIs and follows these instructions: First, a random fact about cats is recorded from the first API. Second, the first three words of the fact are extracted. Third, an image of a cat is displayed with the first three words of the previous fact.",
+      "demoUrl": null,
+      "highlights": [
+        "React",
+        "React DOM",
+        "Vite",
+        "Data interchange",
+        "Text formats",
+        "APIs",
+        "Web applications",
+        "Eslint",
+        "Custom Hooks"
+      ],
+      "isActive": false
+    },
+
+    {
+      "name": "React Movie Search",
+      "description": "The 'React Movie Search' is a React project that displays movies whose data is provided by an API. Movies can be automatically searched for by typing into a form field.",
+      "urlCode": "https://github.com/yuliana-mallorga/React-Movie-Search",
+      "demoUrl": null,
+      "highlights": [
+        "React",
+        "React DOM",
+        "Vite",
+        "Eslint",
+        "React Hooks",
+        "CSS",
+        "Debounce"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "Chatgpt local",
+      "description": "The 'Chatgpt local' project implements a local chat interface using the GPT language model. It allows you to ask questions and receive responses generated by the GPT model privately and without an internet connection.",
+      "urlCode": "https://github.com/yuliana-mallorga/chatgpt-local",
+      "demoUrl": "https://yuliana-mallorga.github.io/chatgpt-local/",
+      "highlights": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Web Worker",
+        "GPT",
+        "@mlc-ai/web-llm",
+        "Integración",
+        "Modelo"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "Astro demo",
+      "description": "The 'Astro Demo' project renders SpaceX launches, using Tailwind CSS to style the site and TypeScript to handle logic and code typing, ensuring better scalability and maintainability. Additionally, it integrates with an API to fetch real-time launch information.",
+      "urlCode": "https://github.com/yuliana-mallorga/astro-demo",
+      "demoUrl": "https://spacex-launches-astro-ts.netlify.app/",
+      "highlights": [
+        "Astro",
+        "TypeScript",
+        "JavaScript",
+        "tailwindcss",
+        "REST API"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "Pending Task React Ts",
+      "description": "The 'Pending Task React' TS Project is an application that allows users to add and delete tasks entered through an input field. It is built with React and TypeScript, ensuring a more structured and maintainable codebase.",
+      "urlCode": "https://github.com/yuliana-mallorga/Pending-Task-React-Ts",
+      "demoUrl": "https://pending-tasks-react.netlify.app/",
+      "highlights": [
+        "Vite",
+        "TypeScript",
+        "React",
+        "React DOM",
+        "Eslint",
+        "CSS"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "Facial Recognition Project (Frontend)",
+      "description": "The Facial Recognition Project is an application designed to detect faces in images provided by the user via a link. To access the application, the user must register or log in and then enter the image link into an input field.",
+      "urlCode": "https://github.com/yuliana-mallorga/Facial-recognition-project/",
+      "demoUrl": "https://facial-recognition-project-t6h5.onrender.com/",
+      "highlights": [
+        "React",
+        "Vite",
+        "Tachyons",
+        "UI/UX",
+        "REST API",
+        "Clarifai",
+        "Eslint"
+      ],
+      "isActive": false
+    },
+    {
+      "name": "facial-recognition-API-Back-end (Backend)",
+      "description": "The 'facial-recognition-API-Back-end' project is an application built with Node.js and Express.js to manage the backend of the facial recognition system. It handles user registration and login, as well as tracking the number of processed images. Additionally, it uses PostgreSQL as a database to store user information and interactions. The API has been tested and documented with Postman to ensure proper functionality.",
+      "urlCode": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
+      "demoUrl": "https://facial-recognition-api-back-end.onrender.com/",
+      "highlights": [
+        "Node.js",
+        "Express.js",
+        "database",
+        "Postman",
+        "PostgreSQL",
+        "dotenv"
       ],
       "isActive": false
     }
