@@ -50,38 +50,47 @@
       ],
       "highlights": [
         "Full Stack Developer with experience in HTML, CSS, JavaScript, React, Vite, Astro Bootstrap, Tailwind, Node.js, Express.js and PostgreSQL.",
-        "Implementation of RESTful APIs and optimization of SQL and NoSQL databases.",
-        "Experience with cloud deployment using Netlify and Render.",
+        "Implementation of RESTful APIs and optimization of SQL databases.",
+        "Experience with cloud deployment using Render."
+      ]
+    },
+    {
+      "projectType": "Team Project",
+      "projectName": "WorldSurveys",
+      "position": "Full Stack Developer",
+      "urlFrontend": "https://world-surveys.netlify.app/",
+      "urlFrontendGit": "https://github.com/mcolombotto/frontSurvey23i",
+      "urlBackend": "https://world-surveys.netlify.app/",
+      "urlBackendGit": "https://github.com/lucianodanert/backSurvey23i",
+      "startDate": "2023-05-02",
+      "endDate": "2023-06-30",
+      "achievements": ["I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.", "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.", "We developed the application using React.js, Bootstrap, Chart.js, and various libraries for the user interface, data handling, and optimization.", "I collaborated on creating essential front-end components, such as Contact, Login (with validation), Register, Us, Navbar and Footer.", "Improved backend functionality, adding login validation and extending the user schema with img, role, and estate fields."
+      ],
+      "highlights": [
+        "Full Stack Developer with experience in HTML, CSS, JavaScript, React, Bootstrap, Node.js.",
+        "Implementation of RESTful APIs and optimization of NoSQL databases.",
+        "Experience with cloud deployment using Netlify.",
         "Work in agile teams with Scrum and GitHub Projects."
       ]
     },
     {
       "projectType": "Team Project",
       "projectName": "Filmax",
-      "position": "Full Stack Developer",
-      "urlFrontend": "",
-      "urlFrontendGit": "",
-      "urlBackend": "",
-      "urlBackendGit": "",
-      "startDate": "2024-03-27",
-      "endDate": "2024-12-12",
-      "achievements": [
+      "position": "Frontend Developer",
+      "urlFrontend": "https://proyecto-modulo2-grupo2.netlify.app/",
+      "urlFrontendGit": "https://github.com/mcolombotto/23iModulo2Grupo2",
+      "urlBackend": null,
+      "urlBackendGit": null,
+      "startDate": "2022-12-9",
+      "endDate": "2022-12-20",
+      "achievements": [ "I led agile development using Scrum, managing sprints, daily standups, and coordinating the team through Trello.", "We developed the application using HTML, CSS, Vanilla JS, and JSON files, incorporating Bootstrap and SweetAlert2 to improve the user experience.", "I collaborated on the creation of essential front-end components, such as the Contact, Error404, and About pages, the Navbar, and the Footer."
       ],
-      "highlights": []
-    },
-    {
-      "projectType": "Team Project",
-      "projectName": "",
-      "position": "Full Stack Developer",
-      "urlFrontend": "",
-      "urlFrontendGit": "",
-      "urlBackend": "",
-      "urlBackendGit": "",
-      "startDate": "2024-03-27",
-      "endDate": "2024-12-12",
-      "achievements": [
-      ],
-      "highlights": []
+      "highlights": [
+        "Full Stack Developer with experience in HTML, CSS, JavaScript.",
+        "Implementation of json file to simulate a API.",
+        "Experience with cloud deployment using Netlify and Render.",
+        "Work in agile teams with Scrum and GitHub Projects."
+      ]
     }
   ],
   "education": [
