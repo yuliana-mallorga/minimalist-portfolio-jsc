@@ -167,6 +167,24 @@
   ],
   "courses": [
     {
+      "name": "Programming Career - Fullstack 9 months: RoollingCode School",
+      "url": "https://web.rollingcodeschool.com/courses/fullstack",
+      "code": null,
+      "year": "2022"
+    },
+    {
+      "name": "The Complete Web Developer in 2024: Zero to Mastery",
+      "url": "https://zerotomastery.io/courses/coding-bootcamp/",
+      "code": null,
+      "year": "2024"
+    },
+    {
+      "name": "The Complete Junior to Senior Web Developer Roadmap (2025)",
+      "url": "https://zerotomastery.io/courses/junior-to-senior-web-developer-roadmap/",
+      "code": null,
+      "year": "2025"
+    },
+    {
       "name": "React JS from scratch",
       "url": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw3SOgpSS37xPZ4baqYVmro-&index=5&t=4433s",
       "code": null,
