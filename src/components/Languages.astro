@@ -6,34 +6,33 @@ import { languages } from "@cv";
   <strong class="mr">Languages:</strong>
   <div class="d-flex language-container">
     {
-      languages.map(
-        ({ language, level }) => {
-          return (
-            <div class="mr">
-              <span>{language} ({level})</span>
-              <span class="slash">/</span>
-            </div>
-          );
-        }
-      )
+      languages.map(({ language, level }) => {
+        return (
+          <div class="mr">
+            <span>
+              {language} ({level})
+            </span>
+            <span class="slash">/</span>
+          </div>
+        );
+      })
     }
   </div>
 </div>
 
 <style>
-.d-flex {
-  display: flex;
-}
-.languages{
-  margin-top:1rem;
-  color: #666;
-  font-size: .9rem;
-}
-.language-container div:last-child .slash{
-  display: none
-}
-.mr{
-  margin-right: .5rem;
-}
+  .d-flex {
+    display: flex;
+  }
+  .languages {
+    margin-top: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .language-container div:last-child .slash {
+    display: none;
+  }
+  .mr {
+    margin-right: 0.5rem;
+  }
 </style>
-
