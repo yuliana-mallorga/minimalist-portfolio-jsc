@@ -39,8 +39,8 @@ import ApprovedIcon from "@/icons/Approved.astro";
                     <ul class="margin">
                       {achievements.map((taskList) => {
                         return (
-                          <p>
-                            <span>
+                          <p class="d-flex">
+                            <span class="pr">
                               <ApprovedIcon width="1.2rem" />
                             </span>
                             {taskList}
@@ -62,7 +62,6 @@ import ApprovedIcon from "@/icons/Approved.astro";
                   <div>
                     {(urlBackend || urlBackendGit) && <h4>Backend code:</h4>}
                     <div class="button-box">
-                      <Button link={urlBackend}>Website</Button>
                       <Button link={urlBackendGit}>GitHub Repo</Button>
                     </div>
                   </div>
@@ -86,10 +85,16 @@ import ApprovedIcon from "@/icons/Approved.astro";
   a:hover {
     background-color: gold;
   }
-  .pl {
+  .pl{
     padding-left: 5px;
   }
 
+  .pr{
+    padding-right: 5px;
+  }
+  .d-flex{
+    display: flex;
+  }
   .margin {
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -98,10 +103,6 @@ import ApprovedIcon from "@/icons/Approved.astro";
   .margin li {
     display: flex;
     align-items: center;
-  }
-
-  span {
-    padding: 5px;
   }
 
   article h3 {
