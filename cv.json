@@ -663,7 +663,7 @@
       "name": "Twitter Follow Card",
       "description": "The Twitter Follow Card Component project focuses on developing a custom component for web applications using React. This component will allow developers to easily integrate Twitter follow cards into their sites with customization options. Vite is used as the development environment, and ESLint rules are applied to maintain code quality.",
       "urlCode": "https://github.com/yuliana-mallorga/TwitterFollowCard",
-      "demoUrl": null,
+      "demoUrl": "https://twitter-follow-card-vite.netlify.app/",
       "highlights": [
         "React",
         "React DOM",
@@ -679,7 +679,7 @@
       "name": "Tic-Tac-Toe Game",
       "description": "The 'Tic-Tac-Toe Game' is a project that creates an online version of the classic 'Tic-Tac-Toe' game. It uses React and React DOM to develop the user interface, Vite as the development environment, and ESLint rules to ensure clean code. Two players compete in real-time, and when one wins, it appears on the screen, ending the game.",
       "urlCode": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
-      "demoUrl": null,
+      "demoUrl": "https://tic-tac-toe-game-react-vite.netlify.app/",
       "highlights": [
         "React",
         "React DOM",
@@ -694,7 +694,7 @@
       "name": "Mouse follower",
       "description": "The 'Mouse follower' is a React project that follows the mouse pointer with an animation. It uses the useState and useEffect hooks to enable and disable mouse tracking.",
       "urlCode": "https://github.com/yuliana-mallorga/Mouse-follower",
-      "demoUrl": null,
+      "demoUrl": "https://mouse-follower-vite-react.netlify.app/",
       "highlights": [
         "React",
         "Vite",
@@ -709,7 +709,7 @@
       "name": "React technical test",
       "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
       "description": "The project consists of a web page as part of a technical test for React beginners and learners. It consumes two APIs and follows these instructions: First, a random fact about cats is recorded from the first API. Second, the first three words of the fact are extracted. Third, an image of a cat is displayed with the first three words of the previous fact.",
-      "demoUrl": null,
+      "demoUrl": "https://kittens-app-react.netlify.app/",
       "highlights": [
         "React",
         "React DOM",
@@ -728,7 +728,7 @@
       "name": "React Movie Search",
       "description": "The 'React Movie Search' is a React project that displays movies whose data is provided by an API. Movies can be automatically searched for by typing into a form field.",
       "urlCode": "https://github.com/yuliana-mallorga/React-Movie-Search",
-      "demoUrl": null,
+      "demoUrl": "https://movie-search-react-vite.netlify.app/",
       "highlights": [
         "React",
         "React DOM",
