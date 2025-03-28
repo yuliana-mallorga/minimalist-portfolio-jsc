@@ -806,7 +806,7 @@
       "name": "facial-recognition-API-Back-end (Backend)",
       "description": "The 'facial-recognition-API-Back-end' project is an application built with Node.js and Express.js to manage the backend of the facial recognition system. It handles user registration and login, as well as tracking the number of processed images. Additionally, it uses PostgreSQL as a database to store user information and interactions. The API has been tested and documented with Postman to ensure proper functionality.",
       "urlCode": "https://github.com/yuliana-mallorga/facial-recognition-API-Back-end",
-      "demoUrl": "https://facial-recognition-api-back-end.onrender.com/",
+      "demoUrl": null,
       "highlights": [
         "Node.js",
         "Express.js",
