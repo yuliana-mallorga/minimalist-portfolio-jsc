@@ -169,94 +169,94 @@
     {
       "name": "Programming Career - Fullstack 9 months: RoollingCode School",
       "url": "https://web.rollingcodeschool.com/courses/fullstack",
-      "code": null,
+      "urlCode": null,
       "year": "2022"
     },
     {
       "name": "The Complete Web Developer in 2024: Zero to Mastery",
       "url": "https://zerotomastery.io/courses/coding-bootcamp/",
-      "code": null,
+      "urlCode": null,
       "year": "2024"
     },
     {
       "name": "The Complete Junior to Senior Web Developer Roadmap (2025)",
       "url": "https://zerotomastery.io/courses/junior-to-senior-web-developer-roadmap/",
-      "code": null,
+      "urlCode": null,
       "year": "2025"
     },
     {
       "name": "React JS from scratch",
       "url": "https://www.youtube.com/watch?v=T_j60n1zgu0&list=PLV8x_i1fqBw3SOgpSS37xPZ4baqYVmro-&index=5&t=4433s",
-      "code": null,
+      "urlCode": null,
       "year": "2023"
     },
     {
       "name": "React Course 2024 - Learn from Scratch",
       "project": "Twitter Follow Card",
       "url": "https://www.youtube.com/watch?v=7iobxzd_2wY&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29",
-      "code": "https://github.com/yuliana-mallorga/TwitterFollowCard",
+      "urlCode": "https://github.com/yuliana-mallorga/TwitterFollowCard",
       "year": "2023"
     },
     {
       "name": "React Course from Scratch: Create a Video Game and an Application to Learn useState and useEffect",
       "project": "Tic-tac-toe game",
       "url": "https://www.youtube.com/watch?v=qkzcjwnueLA&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=2",
-      "code": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
+      "urlCode": "https://github.com/yuliana-mallorga/Tic-tac-toe-game",
       "year": "2023"
     },
     {
       "name": "React Course from Scratch: Create a Video Game and an Application to Learn useState and useEffect",
       "project": "Mouse follower",
       "url": "https://www.youtube.com/watch?v=qkzcjwnueLA",
-      "code": "https://github.com/yuliana-mallorga/Mouse-follower",
+      "urlCode": "https://github.com/yuliana-mallorga/Mouse-follower",
       "year": "2023"
     },
     {
       "name": "React Technical Test for Juniors and Trainees",
       "project": "React technical test",
       "url": "https://www.youtube.com/watch?v=XYpadB4VadY",
-      "code": "https://github.com/yuliana-mallorga/React-technical-test",
+      "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
       "year": "2023"
     },
     {
       "name": "Custom Hooks + Testing with Playwright: React Course from Scratch - Part 4",
       "project": "React technical test",
       "url": "https://www.youtube.com/watch?v=x-LcbVw99o8&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=4",
-      "code": "https://github.com/yuliana-mallorga/React-technical-test",
+      "urlCode": "https://github.com/yuliana-mallorga/React-technical-test",
       "year": "2023"
     },
     {
       "name": "Learn How to Pass a React Technical Test. Understand useMemo, useCallback, and useRef [React Course]",
       "project": "React Movie Search",
       "url": "https://www.youtube.com/watch?v=GOEiMwDJ3lc&list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29&index=5",
-      "code": "https://github.com/yuliana-mallorga/React-Movie-Search",
+      "urlCode": "https://github.com/yuliana-mallorga/React-Movie-Search",
       "year": "2023"
     },
     {
       "name": "Learning Tailwind CSS from Scratch. Style Faster!",
       "url": "https://www.youtube.com/watch?v=h5HQVHTpeHs&t=2584s",
-      "code": null,
+      "urlCode": null,
       "year": "2024"
     },
     {
       "name": "How to create ChatGPT 2.0 for FREE with HTML, CSS, and JavaScript on your PC",
       "project": "Chatgpt local",
       "url": "https://www.youtube.com/watch?v=HvoiF1MCPGs",
-      "code": "https://github.com/yuliana-mallorga/chatgpt-local",
+      "urlCode": "https://github.com/yuliana-mallorga/chatgpt-local",
       "year": "2024"
     },
     {
       "name": "Learn Astro 3 from scratch: Beginner course + app with Astro",
       "project": "Astro demo",
       "url": "https://www.youtube.com/watch?v=RB5tR_nqUEw&t=2s",
-      "code": "https://github.com/yuliana-mallorga/astro-demo",
+      "urlCode": "https://github.com/yuliana-mallorga/astro-demo",
       "year": "2024"
     },
     {
       "name": "Practical tutorial: React and TypeScript step by step, create your first application",
       "project": "Pending Task React Ts",
       "url": "https://www.youtube.com/watch?v=4lAYfsq-2TE&t=84s",
-      "code": "https://github.com/yuliana-mallorga/Pending-Task-React-Ts",
+      "urlCode": "https://github.com/yuliana-mallorga/Pending-Task-React-Ts",
       "year": "2024"
     }
   ],

@@ -1,0 +1,39 @@
+---
+const { name, isActive, year } = Astro.props;
+---
+
+<li>
+  <article>
+    <header>
+      <h4>{name}</h4>
+      {isActive && <span class="bol">&bull;</span>}
+      {year && <time> [{year}] </time>}
+    </header>
+    <body>
+      <slot />
+    </body>
+  </article>
+</li>
+
+<style>
+  article {
+    border-radius: 8px;
+    border: 1px solid #f2f2f2;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    height: 100%;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+
+  .bol {
+    color: #1cc338;
+    font-size: x-large;
+  }
+
+  time {
+    font-size: 0.9rem;
+  }
+</style>
