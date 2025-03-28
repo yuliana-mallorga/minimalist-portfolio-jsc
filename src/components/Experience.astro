@@ -1,5 +1,6 @@
 ---
 import Section from "@/components/sections/Section.astro";
+import Button from "@/components/Button.astro";
 import { work } from "@cv";
 import ApprovedIcon  from "@/icons/Approved.astro"
 ---
@@ -31,15 +32,15 @@ import ApprovedIcon  from "@/icons/Approved.astro"
                 <div >
                   {(urlFrontend || urlFrontendGit) && <h4>Frontend code:</h4>}
                   <div class="frontend">
-                    {urlFrontend && <a  class="button-link" href={urlFrontend} target="_blank" rel="noopener noreferrer">Website</a>}
-                    {urlFrontendGit && <a class="button-link" href={urlFrontendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
+                    <Button link={urlFrontend} >Website</Button>
+                    <Button link={urlFrontendGit} >GitHub Repo</Button>
                   </div>
                 </div>
                 <div>
                   {(urlBackend || urlBackendGit) && <h4>Backend code:</h4>}
                   <div class="backend">
-                    {urlBackend && <a  class="button-link" href={urlBackend} target="_blank" rel="noopener noreferrer">Website</a>}
-                    {urlBackendGit && <a class="button-link" href={urlBackendGit} target="_blank" rel="noopener noreferrer">GitHub Repo</a>}
+                    <Button link={urlBackend} >Website</Button>
+                    <Button link={urlBackendGit} >GitHub Repo</Button>
                   </div>
                 </div>
               </footer>
