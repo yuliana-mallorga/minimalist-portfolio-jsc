@@ -1,5 +1,6 @@
 ---
 import Section from "@/components/sections/Section.astro";
+import Button from "@/components/Button.astro";
 import { projects } from "@cv";
 ---
 
@@ -18,12 +19,7 @@ import { projects } from "@cv";
                   </a>
                   <div class="d-none">
                     {demoUrl !== null || undefined ? (
-                      <a
-                        href={demoUrl}
-                        title={`Watch the ${name} project demo`}
-                      >
-                        Project demo
-                      </a>
+                      <Button link={demoUrl}>Project demo</Button>
                     ) : null}
                   </div>
                   <p>{description}</p>
