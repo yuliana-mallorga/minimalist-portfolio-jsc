@@ -1,7 +1,6 @@
 ---
 import Section from "@/components/sections/Section.astro";
 import { education } from "@cv";
-import { courses } from "@cv";
 import Computer from "@/icons/Computer.astro";
 ---
 
@@ -9,22 +8,22 @@ import Computer from "@/icons/Computer.astro";
   <article>
     <ul>
       {
-        education.map(({ institution, url, summary, title, skills, year }) => {
+        education.map(({ institution, summary, title, skills, year }) => {
           return (
             <li class="section">
               <article>
-                <header>
-                  <div class="main">
-                    <div class="header">
+                <div class="header">
+                  <div>
+                    <div class="d-inline mb">
                       <Computer width="26px" height="16px" />
                       <h3 class="ml">{title}</h3>
-                      <h3 class="ml">[{institution}]</h3>
                     </div>
-                    <time class="pt">[{year}]</time>
+                    <h3 class="mb">[{institution}]</h3>
                   </div>
-                </header>
+                  <time class="mb">[{year}]</time>
+                </div>
                 <body>
-                  <article class="summary">
+                  <article class="summary pt">
                     <p>{summary}</p>
                   </article>
                 </body>
@@ -50,25 +49,21 @@ import Computer from "@/icons/Computer.astro";
     margin-bottom: 1rem;
   }
 
-  .header {
-    display: flex;
-  }
-
   .ml {
     margin-left: 0.5rem;
   }
 
-  a {
-    padding: 2px;
+  .mb {
+    margin-bottom: 0.6rem;
   }
 
   p {
     text-indent: 2rem;
   }
 
-  .main {
-    display: flex;
-    justify-content: space-between;
+  .d-inline {
+    display: inline-flex;
+    align-items: center;
   }
 
   .skills {
